@@ -1,0 +1,6 @@
+<map id="Supermercado::addRequest" name="Supermercado::addRequest">
+<area shape="rect" id="node2" href="$class_pedido.html#a06797f0a6137df4f27a6602af083cdde" title="Pedido::getClientID" alt="" coords="241,5,375,32"/>
+<area shape="rect" id="node4" href="$class_pedido.html#a728b4d0fb30b07498a18b28d92079abe" title="Pedido::addTamanho" alt="" coords="236,56,380,83"/>
+<area shape="rect" id="node5" href="$class_pedido.html#a4eb7ace45204e2c8c90c9e252833eca2" title="Pedido::getTamanho" alt="" coords="237,107,379,133"/>
+<area shape="rect" id="node3" href="$class_node_object.html#a42a10492f5acabd11e544b19cfc365ab" title="NodeObject::getID" alt="" coords="428,5,556,32"/>
+</map>

@@ -1,0 +1,154 @@
+\hypertarget{class_aux_edge}{}\section{Aux\+Edge Class Reference}
+\label{class_aux_edge}\index{Aux\+Edge@{Aux\+Edge}}
+
+
+{\ttfamily \#include $<$Utils.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_aux_edge_aff00b230c80f8b62dca6ed5d1d4baaf9}{Aux\+Edge} ()
+\item 
+\hyperlink{class_aux_edge_ab937368463372c5f87c1805f46318b5a}{Aux\+Edge} (int \hyperlink{class_aux_edge_ae60cad09cc21dd040c40d81139dbc2e7}{src}, int \hyperlink{class_aux_edge_acee560d785382eeb7ed695c59903bbe9}{dest}, int \hyperlink{class_aux_edge_a688348db28aaaea42d86ea26f33177b2}{w}, string \hyperlink{class_aux_edge_a7a52a82fb74a6eddcdab0d4d45917767}{rua}, string \hyperlink{class_aux_edge_aa9a8ff092babb6f3e3df271b400cdf17}{distrito})
+\item 
+bool \hyperlink{class_aux_edge_ac5b9bcaa74464f7a5e79ec56d4c87b0d}{operator==} (const \hyperlink{class_aux_edge}{Aux\+Edge} \&rhs)
+\item 
+bool \hyperlink{class_aux_edge_ac05b44fbcf9e494b0d92df6359ac9932}{exists} (vector$<$ \hyperlink{class_aux_edge}{Aux\+Edge} $>$ edges)
+\item 
+\hyperlink{class_aux_edge}{Aux\+Edge} \hyperlink{class_aux_edge_a6561f80676278a04d73640c2166c438f}{reverse} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_aux_edge_ae60cad09cc21dd040c40d81139dbc2e7}{src}
+\item 
+int \hyperlink{class_aux_edge_acee560d785382eeb7ed695c59903bbe9}{dest}
+\item 
+int \hyperlink{class_aux_edge_a688348db28aaaea42d86ea26f33177b2}{w}
+\item 
+string \hyperlink{class_aux_edge_a7a52a82fb74a6eddcdab0d4d45917767}{rua}
+\item 
+string \hyperlink{class_aux_edge_aa9a8ff092babb6f3e3df271b400cdf17}{distrito}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_aux_edge_aff00b230c80f8b62dca6ed5d1d4baaf9}\label{class_aux_edge_aff00b230c80f8b62dca6ed5d1d4baaf9}} 
+\index{Aux\+Edge@{Aux\+Edge}!Aux\+Edge@{Aux\+Edge}}
+\index{Aux\+Edge@{Aux\+Edge}!Aux\+Edge@{Aux\+Edge}}
+\subsubsection{\texorpdfstring{Aux\+Edge()}{AuxEdge()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Aux\+Edge\+::\+Aux\+Edge (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Construtor por omissao. \mbox{\Hypertarget{class_aux_edge_ab937368463372c5f87c1805f46318b5a}\label{class_aux_edge_ab937368463372c5f87c1805f46318b5a}} 
+\index{Aux\+Edge@{Aux\+Edge}!Aux\+Edge@{Aux\+Edge}}
+\index{Aux\+Edge@{Aux\+Edge}!Aux\+Edge@{Aux\+Edge}}
+\subsubsection{\texorpdfstring{Aux\+Edge()}{AuxEdge()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Aux\+Edge\+::\+Aux\+Edge (\begin{DoxyParamCaption}\item[{int}]{src,  }\item[{int}]{dest,  }\item[{int}]{w,  }\item[{string}]{rua,  }\item[{string}]{distrito }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Construtor que atribui valores aos atributos da classe.
+
+
+\begin{DoxyParams}{Parameters}
+{\em src} & fonte da aresta \\
+\hline
+{\em dest} & destino da aresta \\
+\hline
+{\em w} & peso da aresta \\
+\hline
+{\em rua} & rua da aresta \\
+\hline
+{\em distrito} & distrito da aresta \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_aux_edge_ac05b44fbcf9e494b0d92df6359ac9932}\label{class_aux_edge_ac05b44fbcf9e494b0d92df6359ac9932}} 
+\index{Aux\+Edge@{Aux\+Edge}!exists@{exists}}
+\index{exists@{exists}!Aux\+Edge@{Aux\+Edge}}
+\subsubsection{\texorpdfstring{exists()}{exists()}}
+{\footnotesize\ttfamily bool Aux\+Edge\+::exists (\begin{DoxyParamCaption}\item[{vector$<$ \hyperlink{class_aux_edge}{Aux\+Edge} $>$}]{edges }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Funcao que indica se esta \hyperlink{class_aux_edge}{Aux\+Edge} existe no vetor dado.
+
+
+\begin{DoxyParams}{Parameters}
+{\em edges} & vetor de Aux\+Edges \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true se esta \hyperlink{class_aux_edge}{Aux\+Edge} existe no vetor dado e false caso contrario 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_aux_edge_ac05b44fbcf9e494b0d92df6359ac9932_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_aux_edge_ac5b9bcaa74464f7a5e79ec56d4c87b0d}\label{class_aux_edge_ac5b9bcaa74464f7a5e79ec56d4c87b0d}} 
+\index{Aux\+Edge@{Aux\+Edge}!operator==@{operator==}}
+\index{operator==@{operator==}!Aux\+Edge@{Aux\+Edge}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Aux\+Edge\+::operator== (\begin{DoxyParamCaption}\item[{const \hyperlink{class_aux_edge}{Aux\+Edge} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Operador de igualdade desta classe. Duas \hyperlink{class_aux_edge}{Aux\+Edge} sao iguais se tiverem a mesma fonte e destino ou tiverem a mesma rua.
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \hyperlink{class_aux_edge}{Aux\+Edge} a comparar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true se as \hyperlink{class_aux_edge}{Aux\+Edge} sao iguais e false caso contrario 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_aux_edge_a6561f80676278a04d73640c2166c438f}\label{class_aux_edge_a6561f80676278a04d73640c2166c438f}} 
+\index{Aux\+Edge@{Aux\+Edge}!reverse@{reverse}}
+\index{reverse@{reverse}!Aux\+Edge@{Aux\+Edge}}
+\subsubsection{\texorpdfstring{reverse()}{reverse()}}
+{\footnotesize\ttfamily \hyperlink{class_aux_edge}{Aux\+Edge} Aux\+Edge\+::reverse (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Funcao que troca o sentido de uma \hyperlink{class_aux_edge}{Aux\+Edge}.
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_aux_edge}{Aux\+Edge} com o sentido trocado. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_aux_edge_acee560d785382eeb7ed695c59903bbe9}\label{class_aux_edge_acee560d785382eeb7ed695c59903bbe9}} 
+\index{Aux\+Edge@{Aux\+Edge}!dest@{dest}}
+\index{dest@{dest}!Aux\+Edge@{Aux\+Edge}}
+\subsubsection{\texorpdfstring{dest}{dest}}
+{\footnotesize\ttfamily int Aux\+Edge\+::dest}
+
+\mbox{\Hypertarget{class_aux_edge_aa9a8ff092babb6f3e3df271b400cdf17}\label{class_aux_edge_aa9a8ff092babb6f3e3df271b400cdf17}} 
+\index{Aux\+Edge@{Aux\+Edge}!distrito@{distrito}}
+\index{distrito@{distrito}!Aux\+Edge@{Aux\+Edge}}
+\subsubsection{\texorpdfstring{distrito}{distrito}}
+{\footnotesize\ttfamily string Aux\+Edge\+::distrito}
+
+\mbox{\Hypertarget{class_aux_edge_a7a52a82fb74a6eddcdab0d4d45917767}\label{class_aux_edge_a7a52a82fb74a6eddcdab0d4d45917767}} 
+\index{Aux\+Edge@{Aux\+Edge}!rua@{rua}}
+\index{rua@{rua}!Aux\+Edge@{Aux\+Edge}}
+\subsubsection{\texorpdfstring{rua}{rua}}
+{\footnotesize\ttfamily string Aux\+Edge\+::rua}
+
+Rua e distrito da aresta. \mbox{\Hypertarget{class_aux_edge_ae60cad09cc21dd040c40d81139dbc2e7}\label{class_aux_edge_ae60cad09cc21dd040c40d81139dbc2e7}} 
+\index{Aux\+Edge@{Aux\+Edge}!src@{src}}
+\index{src@{src}!Aux\+Edge@{Aux\+Edge}}
+\subsubsection{\texorpdfstring{src}{src}}
+{\footnotesize\ttfamily int Aux\+Edge\+::src}
+
+Fonte, destino e peso da aresta. \mbox{\Hypertarget{class_aux_edge_a688348db28aaaea42d86ea26f33177b2}\label{class_aux_edge_a688348db28aaaea42d86ea26f33177b2}} 
+\index{Aux\+Edge@{Aux\+Edge}!w@{w}}
+\index{w@{w}!Aux\+Edge@{Aux\+Edge}}
+\subsubsection{\texorpdfstring{w}{w}}
+{\footnotesize\ttfamily int Aux\+Edge\+::w}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_utils_8h}{Utils.\+h}\end{DoxyCompactItemize}

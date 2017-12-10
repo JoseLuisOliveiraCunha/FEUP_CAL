@@ -1,0 +1,346 @@
+\hypertarget{class_graph}{}\section{Graph$<$ T $>$ Class Template Reference}
+\label{class_graph}\index{Graph$<$ T $>$@{Graph$<$ T $>$}}
+
+
+{\ttfamily \#include $<$Graph.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_graph_a00be284ea2be3b3d0f0d2e493b70245b}{add\+Vertex} (const T \&in)
+\item 
+bool \hyperlink{class_graph_ad7d2d102d0b5e91345d69766e1adcd19}{add\+Edge} (const T \&sourc, const T \&dest, double w, string r, string d)
+\item 
+bool \hyperlink{class_graph_af9c903104ad69a7782979fa9caedf163}{remove\+Vertex} (const T \&in)
+\item 
+bool \hyperlink{class_graph_a1106092a37366486cf55576f9ec01692}{remove\+Edge} (const T \&sourc, const T \&dest)
+\item 
+vector$<$ T $>$ \hyperlink{class_graph_a911798b1a89f8c4ae90ba3eee849cff8}{dfs} () const
+\item 
+vector$<$ T $>$ \hyperlink{class_graph_a56a5ea2c3aa7c0bd3849849be404a631}{bfs} (\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$v) const
+\item 
+int \hyperlink{class_graph_a675559f8cddfe43bc416023ad9f28cfa}{max\+New\+Children} (\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$v, T \&inf) const
+\item 
+vector$<$ \hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$$>$ \hyperlink{class_graph_a135e8f915af85904abca9eafaa4f13ce}{get\+Vertex\+Set} () const
+\item 
+int \hyperlink{class_graph_a0853eac15cdf0f06d63f4b8a7820ec71}{get\+Num\+Vertex} () const
+\item 
+\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$ \hyperlink{class_graph_a67453d232f04e85c642b51554df1bc6a}{get\+Vertex} (const T \&v) const
+\item 
+vector$<$ \hyperlink{class_edge}{Edge}$<$ T $>$ $>$ \hyperlink{class_graph_a92ccadde8c981252b715147a33b9dcb1}{get\+Edges} ()
+\item 
+void \hyperlink{class_graph_af34eb86d804272e6e3e221a9ed688c53}{reset\+Indegrees} ()
+\item 
+vector$<$ \hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$ $>$ \hyperlink{class_graph_a947115150a94f88ac9aedbcec59dd07e}{get\+Sources} () const
+\item 
+int \hyperlink{class_graph_a694dff81073c38b669057f0c6bd4cbb1}{get\+Num\+Cycles} ()
+\item 
+bool \hyperlink{class_graph_ab49d07c2bd6b8b30d5ae82bc558b821a}{is\+D\+AG} ()
+\item 
+vector$<$ T $>$ \hyperlink{class_graph_a2e75512c089c3916dda9cf61e1185d9d}{topological\+Order} ()
+\item 
+vector$<$ T $>$ \hyperlink{class_graph_ab4054ca572c10669dd3e05d6d41c116c}{get\+Path} (const T \&origin, const T \&dest)
+\item 
+void \hyperlink{class_graph_ae5264597aacaf4f45819e96a6d6c89aa}{unweighted\+Shortest\+Path} (const T \&v)
+\item 
+void \hyperlink{class_graph_ad0319019c0883094c0d09841e88f2179}{dijkstra} (\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$origin)
+\item 
+\hyperlink{class_graph}{Graph}$<$ T $>$ \hyperlink{class_graph_a153095b4dd52f90027f8a7ac3fc5d2ab}{get\+Transpose} ()
+\item 
+void \hyperlink{class_graph_a56fefa2bdd0f7d66eec0ef51c961846a}{dfs\+Print} (\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$v) const
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_graph_abf3a280505ad7abd0ff83f45eb807c41}{dfs} (\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$v, vector$<$ T $>$ \&res) const
+\item 
+void \hyperlink{class_graph_a167172d4ecb3f4998caaaf370724b536}{dfs\+Visit} (\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$v)
+\item 
+void \hyperlink{class_graph_a4d5abd78dd24ea71dbf50e1b0284d4b3}{dfs\+Visit} ()
+\item 
+void \hyperlink{class_graph_ac08257ce8a96a8b4e44f1818e5eb8cf9}{get\+Path\+To} (\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$origin, list$<$ T $>$ \&res)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$ $>$ \hyperlink{class_graph_a73d4e735fc0a7c83c9c689a2b53fa623}{vertex\+Set}
+\item 
+vector$<$ \hyperlink{class_edge}{Edge}$<$ T $>$ $>$ \hyperlink{class_graph_a9cb12007e85c47011141b52cf565e0ed}{edge\+Set}
+\item 
+int \hyperlink{class_graph_ad5cc402f1b24d30ae12ffc2622ffbd5f}{num\+Cycles}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_graph_ad7d2d102d0b5e91345d69766e1adcd19}\label{class_graph_ad7d2d102d0b5e91345d69766e1adcd19}} 
+\index{Graph@{Graph}!add\+Edge@{add\+Edge}}
+\index{add\+Edge@{add\+Edge}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{add\+Edge()}{addEdge()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+bool \hyperlink{class_graph}{Graph}$<$ T $>$\+::add\+Edge (\begin{DoxyParamCaption}\item[{const T \&}]{sourc,  }\item[{const T \&}]{dest,  }\item[{double}]{w,  }\item[{string}]{r,  }\item[{string}]{d }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=319pt]{class_graph_ad7d2d102d0b5e91345d69766e1adcd19_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_graph_a00be284ea2be3b3d0f0d2e493b70245b}\label{class_graph_a00be284ea2be3b3d0f0d2e493b70245b}} 
+\index{Graph@{Graph}!add\+Vertex@{add\+Vertex}}
+\index{add\+Vertex@{add\+Vertex}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{add\+Vertex()}{addVertex()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+bool \hyperlink{class_graph}{Graph}$<$ T $>$\+::add\+Vertex (\begin{DoxyParamCaption}\item[{const T \&}]{in }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{class_graph_a00be284ea2be3b3d0f0d2e493b70245b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_graph_a56a5ea2c3aa7c0bd3849849be404a631}\label{class_graph_a56a5ea2c3aa7c0bd3849849be404a631}} 
+\index{Graph@{Graph}!bfs@{bfs}}
+\index{bfs@{bfs}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{bfs()}{bfs()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+vector$<$ T $>$ \hyperlink{class_graph}{Graph}$<$ T $>$\+::bfs (\begin{DoxyParamCaption}\item[{\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$}]{v }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_graph_abf3a280505ad7abd0ff83f45eb807c41}\label{class_graph_abf3a280505ad7abd0ff83f45eb807c41}} 
+\index{Graph@{Graph}!dfs@{dfs}}
+\index{dfs@{dfs}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{dfs()}{dfs()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \hyperlink{class_graph}{Graph}$<$ T $>$\+::dfs (\begin{DoxyParamCaption}\item[{\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$}]{v,  }\item[{vector$<$ T $>$ \&}]{res }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_graph_a911798b1a89f8c4ae90ba3eee849cff8}\label{class_graph_a911798b1a89f8c4ae90ba3eee849cff8}} 
+\index{Graph@{Graph}!dfs@{dfs}}
+\index{dfs@{dfs}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{dfs()}{dfs()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+vector$<$ T $>$ \hyperlink{class_graph}{Graph}$<$ T $>$\+::dfs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_graph_a56fefa2bdd0f7d66eec0ef51c961846a}\label{class_graph_a56fefa2bdd0f7d66eec0ef51c961846a}} 
+\index{Graph@{Graph}!dfs\+Print@{dfs\+Print}}
+\index{dfs\+Print@{dfs\+Print}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{dfs\+Print()}{dfsPrint()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \hyperlink{class_graph}{Graph}$<$ T $>$\+::dfs\+Print (\begin{DoxyParamCaption}\item[{\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$}]{v }\end{DoxyParamCaption}) const}
+
+Imprime o conteudo dos vertices do grafo pela ordem em que os visita em profundidade.
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & apontador para o vertice de inicio \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_a56fefa2bdd0f7d66eec0ef51c961846a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_graph_a167172d4ecb3f4998caaaf370724b536}\label{class_graph_a167172d4ecb3f4998caaaf370724b536}} 
+\index{Graph@{Graph}!dfs\+Visit@{dfs\+Visit}}
+\index{dfs\+Visit@{dfs\+Visit}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{dfs\+Visit()}{dfsVisit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \hyperlink{class_graph}{Graph}$<$ T $>$\+::dfs\+Visit (\begin{DoxyParamCaption}\item[{\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_graph_a4d5abd78dd24ea71dbf50e1b0284d4b3}\label{class_graph_a4d5abd78dd24ea71dbf50e1b0284d4b3}} 
+\index{Graph@{Graph}!dfs\+Visit@{dfs\+Visit}}
+\index{dfs\+Visit@{dfs\+Visit}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{dfs\+Visit()}{dfsVisit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \hyperlink{class_graph}{Graph}$<$ T $>$\+::dfs\+Visit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_graph_ad0319019c0883094c0d09841e88f2179}\label{class_graph_ad0319019c0883094c0d09841e88f2179}} 
+\index{Graph@{Graph}!dijkstra@{dijkstra}}
+\index{dijkstra@{dijkstra}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{dijkstra()}{dijkstra()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \hyperlink{class_graph}{Graph}$<$ T $>$\+::dijkstra (\begin{DoxyParamCaption}\item[{\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$}]{origin }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_ad0319019c0883094c0d09841e88f2179_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_graph_a92ccadde8c981252b715147a33b9dcb1}\label{class_graph_a92ccadde8c981252b715147a33b9dcb1}} 
+\index{Graph@{Graph}!get\+Edges@{get\+Edges}}
+\index{get\+Edges@{get\+Edges}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{get\+Edges()}{getEdges()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+vector$<$\hyperlink{class_edge}{Edge}$<$T$>$ $>$ \hyperlink{class_graph}{Graph}$<$ T $>$\+::get\+Edges (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_graph_a694dff81073c38b669057f0c6bd4cbb1}\label{class_graph_a694dff81073c38b669057f0c6bd4cbb1}} 
+\index{Graph@{Graph}!get\+Num\+Cycles@{get\+Num\+Cycles}}
+\index{get\+Num\+Cycles@{get\+Num\+Cycles}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{get\+Num\+Cycles()}{getNumCycles()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+int \hyperlink{class_graph}{Graph}$<$ T $>$\+::get\+Num\+Cycles (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_graph_a0853eac15cdf0f06d63f4b8a7820ec71}\label{class_graph_a0853eac15cdf0f06d63f4b8a7820ec71}} 
+\index{Graph@{Graph}!get\+Num\+Vertex@{get\+Num\+Vertex}}
+\index{get\+Num\+Vertex@{get\+Num\+Vertex}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{get\+Num\+Vertex()}{getNumVertex()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+int \hyperlink{class_graph}{Graph}$<$ T $>$\+::get\+Num\+Vertex (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_graph_ab4054ca572c10669dd3e05d6d41c116c}\label{class_graph_ab4054ca572c10669dd3e05d6d41c116c}} 
+\index{Graph@{Graph}!get\+Path@{get\+Path}}
+\index{get\+Path@{get\+Path}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{get\+Path()}{getPath()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+vector$<$ T $>$ \hyperlink{class_graph}{Graph}$<$ T $>$\+::get\+Path (\begin{DoxyParamCaption}\item[{const T \&}]{origin,  }\item[{const T \&}]{dest }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_graph_ac08257ce8a96a8b4e44f1818e5eb8cf9}\label{class_graph_ac08257ce8a96a8b4e44f1818e5eb8cf9}} 
+\index{Graph@{Graph}!get\+Path\+To@{get\+Path\+To}}
+\index{get\+Path\+To@{get\+Path\+To}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{get\+Path\+To()}{getPathTo()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \hyperlink{class_graph}{Graph}$<$ T $>$\+::get\+Path\+To (\begin{DoxyParamCaption}\item[{\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$}]{origin,  }\item[{list$<$ T $>$ \&}]{res }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_graph_a947115150a94f88ac9aedbcec59dd07e}\label{class_graph_a947115150a94f88ac9aedbcec59dd07e}} 
+\index{Graph@{Graph}!get\+Sources@{get\+Sources}}
+\index{get\+Sources@{get\+Sources}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{get\+Sources()}{getSources()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+vector$<$ \hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$ $>$ \hyperlink{class_graph}{Graph}$<$ T $>$\+::get\+Sources (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_graph_a153095b4dd52f90027f8a7ac3fc5d2ab}\label{class_graph_a153095b4dd52f90027f8a7ac3fc5d2ab}} 
+\index{Graph@{Graph}!get\+Transpose@{get\+Transpose}}
+\index{get\+Transpose@{get\+Transpose}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{get\+Transpose()}{getTranspose()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\hyperlink{class_graph}{Graph}$<$ T $>$ \hyperlink{class_graph}{Graph}$<$ T $>$\+::get\+Transpose (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Inverte o sentido das arestas de um grafo.
+
+\begin{DoxyReturn}{Returns}
+grafo invertido 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_a153095b4dd52f90027f8a7ac3fc5d2ab_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_graph_a67453d232f04e85c642b51554df1bc6a}\label{class_graph_a67453d232f04e85c642b51554df1bc6a}} 
+\index{Graph@{Graph}!get\+Vertex@{get\+Vertex}}
+\index{get\+Vertex@{get\+Vertex}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{get\+Vertex()}{getVertex()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$ \hyperlink{class_graph}{Graph}$<$ T $>$\+::get\+Vertex (\begin{DoxyParamCaption}\item[{const T \&}]{v }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_a67453d232f04e85c642b51554df1bc6a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_graph_a135e8f915af85904abca9eafaa4f13ce}\label{class_graph_a135e8f915af85904abca9eafaa4f13ce}} 
+\index{Graph@{Graph}!get\+Vertex\+Set@{get\+Vertex\+Set}}
+\index{get\+Vertex\+Set@{get\+Vertex\+Set}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{get\+Vertex\+Set()}{getVertexSet()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+vector$<$ \hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$$>$ \hyperlink{class_graph}{Graph}$<$ T $>$\+::get\+Vertex\+Set (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_a135e8f915af85904abca9eafaa4f13ce_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_graph_ab49d07c2bd6b8b30d5ae82bc558b821a}\label{class_graph_ab49d07c2bd6b8b30d5ae82bc558b821a}} 
+\index{Graph@{Graph}!is\+D\+AG@{is\+D\+AG}}
+\index{is\+D\+AG@{is\+D\+AG}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{is\+D\+A\+G()}{isDAG()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool \hyperlink{class_graph}{Graph}$<$ T $>$\+::is\+D\+AG (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_graph_a675559f8cddfe43bc416023ad9f28cfa}\label{class_graph_a675559f8cddfe43bc416023ad9f28cfa}} 
+\index{Graph@{Graph}!max\+New\+Children@{max\+New\+Children}}
+\index{max\+New\+Children@{max\+New\+Children}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{max\+New\+Children()}{maxNewChildren()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \hyperlink{class_graph}{Graph}$<$ T $>$\+::max\+New\+Children (\begin{DoxyParamCaption}\item[{\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$}]{v,  }\item[{T \&}]{inf }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_graph_a1106092a37366486cf55576f9ec01692}\label{class_graph_a1106092a37366486cf55576f9ec01692}} 
+\index{Graph@{Graph}!remove\+Edge@{remove\+Edge}}
+\index{remove\+Edge@{remove\+Edge}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{remove\+Edge()}{removeEdge()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+bool \hyperlink{class_graph}{Graph}$<$ T $>$\+::remove\+Edge (\begin{DoxyParamCaption}\item[{const T \&}]{sourc,  }\item[{const T \&}]{dest }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_graph_af9c903104ad69a7782979fa9caedf163}\label{class_graph_af9c903104ad69a7782979fa9caedf163}} 
+\index{Graph@{Graph}!remove\+Vertex@{remove\+Vertex}}
+\index{remove\+Vertex@{remove\+Vertex}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{remove\+Vertex()}{removeVertex()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+bool \hyperlink{class_graph}{Graph}$<$ T $>$\+::remove\+Vertex (\begin{DoxyParamCaption}\item[{const T \&}]{in }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_graph_af34eb86d804272e6e3e221a9ed688c53}\label{class_graph_af34eb86d804272e6e3e221a9ed688c53}} 
+\index{Graph@{Graph}!reset\+Indegrees@{reset\+Indegrees}}
+\index{reset\+Indegrees@{reset\+Indegrees}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{reset\+Indegrees()}{resetIndegrees()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \hyperlink{class_graph}{Graph}$<$ T $>$\+::reset\+Indegrees (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_graph_a2e75512c089c3916dda9cf61e1185d9d}\label{class_graph_a2e75512c089c3916dda9cf61e1185d9d}} 
+\index{Graph@{Graph}!topological\+Order@{topological\+Order}}
+\index{topological\+Order@{topological\+Order}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{topological\+Order()}{topologicalOrder()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+vector$<$ T $>$ \hyperlink{class_graph}{Graph}$<$ T $>$\+::topological\+Order (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_graph_ae5264597aacaf4f45819e96a6d6c89aa}\label{class_graph_ae5264597aacaf4f45819e96a6d6c89aa}} 
+\index{Graph@{Graph}!unweighted\+Shortest\+Path@{unweighted\+Shortest\+Path}}
+\index{unweighted\+Shortest\+Path@{unweighted\+Shortest\+Path}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{unweighted\+Shortest\+Path()}{unweightedShortestPath()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \hyperlink{class_graph}{Graph}$<$ T $>$\+::unweighted\+Shortest\+Path (\begin{DoxyParamCaption}\item[{const T \&}]{v }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_graph_a9cb12007e85c47011141b52cf565e0ed}\label{class_graph_a9cb12007e85c47011141b52cf565e0ed}} 
+\index{Graph@{Graph}!edge\+Set@{edge\+Set}}
+\index{edge\+Set@{edge\+Set}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{edge\+Set}{edgeSet}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+vector$<$\hyperlink{class_edge}{Edge}$<$T$>$ $>$ \hyperlink{class_graph}{Graph}$<$ T $>$\+::edge\+Set\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_graph_ad5cc402f1b24d30ae12ffc2622ffbd5f}\label{class_graph_ad5cc402f1b24d30ae12ffc2622ffbd5f}} 
+\index{Graph@{Graph}!num\+Cycles@{num\+Cycles}}
+\index{num\+Cycles@{num\+Cycles}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{num\+Cycles}{numCycles}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \hyperlink{class_graph}{Graph}$<$ T $>$\+::num\+Cycles\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_graph_a73d4e735fc0a7c83c9c689a2b53fa623}\label{class_graph_a73d4e735fc0a7c83c9c689a2b53fa623}} 
+\index{Graph@{Graph}!vertex\+Set@{vertex\+Set}}
+\index{vertex\+Set@{vertex\+Set}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{vertex\+Set}{vertexSet}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+vector$<$\hyperlink{class_vertex}{Vertex}$<$T$>$ $\ast$$>$ \hyperlink{class_graph}{Graph}$<$ T $>$\+::vertex\+Set\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_graph_8h}{Graph.\+h}\end{DoxyCompactItemize}

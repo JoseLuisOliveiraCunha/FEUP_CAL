@@ -1,0 +1,254 @@
+\hypertarget{class_supermercado}{}\section{Supermercado Class Reference}
+\label{class_supermercado}\index{Supermercado@{Supermercado}}
+
+
+{\ttfamily \#include $<$Supermercado.\+h$>$}
+
+
+
+Inheritance diagram for Supermercado\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{class_supermercado__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Supermercado\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{class_supermercado__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_supermercado_abb04a5d0aa1f9c2550c1f3e48da26d5a}{Supermercado} (int nr\+Trucks, string cadeia)
+\item 
+void \hyperlink{class_supermercado_a314239f694ade17210e7d50689f49fc5}{add\+Request} (\hyperlink{class_pedido}{Pedido} $\ast$request)
+\item 
+int \hyperlink{class_supermercado_af5f0635dbc5b61a185c74f37f4ee1f92}{get\+Request\+Number} ()
+\item 
+void \hyperlink{class_supermercado_ad24337eae5c068802738319ec4331772}{deliver\+Requests} (\hyperlink{class_graph}{Graph}$<$ \hyperlink{class_node_object}{Node\+Object} $\ast$$>$ graph, int choice)
+\item 
+void \hyperlink{class_supermercado_aa7ec7166a13ba5839aec12ff65b599aa}{fill\+Trucks\+Size} (\hyperlink{class_graph}{Graph}$<$ \hyperlink{class_node_object}{Node\+Object} $\ast$$>$ graph)
+\item 
+void \hyperlink{class_supermercado_afaaae4505e9900f6f44800118280aafb}{fill\+Trucks\+Distance} (\hyperlink{class_graph}{Graph}$<$ \hyperlink{class_node_object}{Node\+Object} $\ast$$>$ graph)
+\item 
+int \hyperlink{class_supermercado_abcbce3640cbb395c1b9cd3bd07b11316}{get\+Number\+Trucks} ()
+\item 
+string \hyperlink{class_supermercado_a43b014953172f2e6aa09003da36a5194}{get\+Cadeia\+Supermercado} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+priority\+\_\+queue$<$ \hyperlink{class_pedido}{Pedido} $\ast$, vector$<$ \hyperlink{class_pedido}{Pedido} $\ast$ $>$, \hyperlink{class_comparison_request_size}{Comparison\+Request\+Size} $>$ \hyperlink{class_supermercado_a0f8759dc0543f6902264f9f9e7d436a0}{pedidos}
+\item 
+vector$<$ \hyperlink{class_camiao}{Camiao} $\ast$ $>$ \hyperlink{class_supermercado_a680cc129a590b0b87f2cb4dc200f9901}{camioes}
+\item 
+string \hyperlink{class_supermercado_a9f26a07c7740187fd52f6d9e56452cad}{cadeia\+Supermercado}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_supermercado_abb04a5d0aa1f9c2550c1f3e48da26d5a}\label{class_supermercado_abb04a5d0aa1f9c2550c1f3e48da26d5a}} 
+\index{Supermercado@{Supermercado}!Supermercado@{Supermercado}}
+\index{Supermercado@{Supermercado}!Supermercado@{Supermercado}}
+\subsubsection{\texorpdfstring{Supermercado()}{Supermercado()}}
+{\footnotesize\ttfamily Supermercado\+::\+Supermercado (\begin{DoxyParamCaption}\item[{int}]{nr\+Trucks,  }\item[{string}]{cadeia }\end{DoxyParamCaption})}
+
+Contrutor do supermercado. O número de camiões que o supermercado possuirá é igual \textquotesingle{}nr\+Trucks\textquotesingle{}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em nr\+Trucks} & número de camiões que o supermercado possuirá \\
+\hline
+{\em cadeia} & cadeia a que o supermercado pertence \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_supermercado_a314239f694ade17210e7d50689f49fc5}\label{class_supermercado_a314239f694ade17210e7d50689f49fc5}} 
+\index{Supermercado@{Supermercado}!add\+Request@{add\+Request}}
+\index{add\+Request@{add\+Request}!Supermercado@{Supermercado}}
+\subsubsection{\texorpdfstring{add\+Request()}{addRequest()}}
+{\footnotesize\ttfamily void Supermercado\+::add\+Request (\begin{DoxyParamCaption}\item[{\hyperlink{class_pedido}{Pedido} $\ast$}]{request }\end{DoxyParamCaption})}
+
+Adiciona um apontador para um pedido à fila de prioridade pedidos, tendo em conta que adicionar vários pedidos de um mesmo cliente apenas atualiza o tamanho do pedido desse cliente, não criando novas instâncias na fila de prioridade.
+
+
+\begin{DoxyParams}{Parameters}
+{\em request} & pedido a adicionar à fila de prioridade \textquotesingle{}pedidos\textquotesingle{} \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermercado_a314239f694ade17210e7d50689f49fc5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermercado_a314239f694ade17210e7d50689f49fc5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermercado_ad24337eae5c068802738319ec4331772}\label{class_supermercado_ad24337eae5c068802738319ec4331772}} 
+\index{Supermercado@{Supermercado}!deliver\+Requests@{deliver\+Requests}}
+\index{deliver\+Requests@{deliver\+Requests}!Supermercado@{Supermercado}}
+\subsubsection{\texorpdfstring{deliver\+Requests()}{deliverRequests()}}
+{\footnotesize\ttfamily void Supermercado\+::deliver\+Requests (\begin{DoxyParamCaption}\item[{\hyperlink{class_graph}{Graph}$<$ \hyperlink{class_node_object}{Node\+Object} $\ast$$>$}]{graph,  }\item[{int}]{choice }\end{DoxyParamCaption})}
+
+Entrega aos clientes deste supermercado todos os seus pedidos pendentes. Caso \textquotesingle{}choice\textquotesingle{} seja 0 pretende-\/se que os camiões tranportem o máximo de pedidos numa só viagem. Caso \textquotesingle{}choice\textquotesingle{} seja 1 o objectivo será que os camiões percorram uma distância total mínima ao entregar os pedidos.
+
+
+\begin{DoxyParams}{Parameters}
+{\em graph} & grafo da cadeia de supermercados considerada \\
+\hline
+{\em choice} & inteiro que determina a estratégia utilizada na entrega dos pedidos \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermercado_ad24337eae5c068802738319ec4331772_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermercado_afaaae4505e9900f6f44800118280aafb}\label{class_supermercado_afaaae4505e9900f6f44800118280aafb}} 
+\index{Supermercado@{Supermercado}!fill\+Trucks\+Distance@{fill\+Trucks\+Distance}}
+\index{fill\+Trucks\+Distance@{fill\+Trucks\+Distance}!Supermercado@{Supermercado}}
+\subsubsection{\texorpdfstring{fill\+Trucks\+Distance()}{fillTrucksDistance()}}
+{\footnotesize\ttfamily void Supermercado\+::fill\+Trucks\+Distance (\begin{DoxyParamCaption}\item[{\hyperlink{class_graph}{Graph}$<$ \hyperlink{class_node_object}{Node\+Object} $\ast$$>$}]{graph }\end{DoxyParamCaption})}
+
+Distribui os pedidos pelos camiões, determinando seu itenerário de modo a que cada camião percorra uma distância total mínima ao entregar os pedidos.
+
+
+\begin{DoxyParams}{Parameters}
+{\em graph} & grafo da cadeia de supermercados considerada \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermercado_afaaae4505e9900f6f44800118280aafb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermercado_afaaae4505e9900f6f44800118280aafb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermercado_aa7ec7166a13ba5839aec12ff65b599aa}\label{class_supermercado_aa7ec7166a13ba5839aec12ff65b599aa}} 
+\index{Supermercado@{Supermercado}!fill\+Trucks\+Size@{fill\+Trucks\+Size}}
+\index{fill\+Trucks\+Size@{fill\+Trucks\+Size}!Supermercado@{Supermercado}}
+\subsubsection{\texorpdfstring{fill\+Trucks\+Size()}{fillTrucksSize()}}
+{\footnotesize\ttfamily void Supermercado\+::fill\+Trucks\+Size (\begin{DoxyParamCaption}\item[{\hyperlink{class_graph}{Graph}$<$ \hyperlink{class_node_object}{Node\+Object} $\ast$$>$}]{graph }\end{DoxyParamCaption})}
+
+Distribui os pedidos pelos camiões, determinando seu itenerário de modo a que cada camião transporte o número máximo de pedidos em cada viagem.
+
+
+\begin{DoxyParams}{Parameters}
+{\em graph} & grafo da cadeia de supermercados considerada \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermercado_aa7ec7166a13ba5839aec12ff65b599aa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermercado_aa7ec7166a13ba5839aec12ff65b599aa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermercado_a43b014953172f2e6aa09003da36a5194}\label{class_supermercado_a43b014953172f2e6aa09003da36a5194}} 
+\index{Supermercado@{Supermercado}!get\+Cadeia\+Supermercado@{get\+Cadeia\+Supermercado}}
+\index{get\+Cadeia\+Supermercado@{get\+Cadeia\+Supermercado}!Supermercado@{Supermercado}}
+\subsubsection{\texorpdfstring{get\+Cadeia\+Supermercado()}{getCadeiaSupermercado()}}
+{\footnotesize\ttfamily string Supermercado\+::get\+Cadeia\+Supermercado (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Retorna cadeia de supermercados a que pertence este supermercado.
+
+\begin{DoxyReturn}{Returns}
+a cadeia deste supermercado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_supermercado_abcbce3640cbb395c1b9cd3bd07b11316}\label{class_supermercado_abcbce3640cbb395c1b9cd3bd07b11316}} 
+\index{Supermercado@{Supermercado}!get\+Number\+Trucks@{get\+Number\+Trucks}}
+\index{get\+Number\+Trucks@{get\+Number\+Trucks}!Supermercado@{Supermercado}}
+\subsubsection{\texorpdfstring{get\+Number\+Trucks()}{getNumberTrucks()}}
+{\footnotesize\ttfamily int Supermercado\+::get\+Number\+Trucks (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Retorna o número de camiões deste supermercado.
+
+\begin{DoxyReturn}{Returns}
+o número de camiões deste supermercado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_supermercado_af5f0635dbc5b61a185c74f37f4ee1f92}\label{class_supermercado_af5f0635dbc5b61a185c74f37f4ee1f92}} 
+\index{Supermercado@{Supermercado}!get\+Request\+Number@{get\+Request\+Number}}
+\index{get\+Request\+Number@{get\+Request\+Number}!Supermercado@{Supermercado}}
+\subsubsection{\texorpdfstring{get\+Request\+Number()}{getRequestNumber()}}
+{\footnotesize\ttfamily int Supermercado\+::get\+Request\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Retorna o número de pedidos deste supermercado, ou seja, o tamanho da fila de prioridade pedidos.
+
+\begin{DoxyReturn}{Returns}
+o número de pedidos deste supermercado 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermercado_af5f0635dbc5b61a185c74f37f4ee1f92_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_supermercado_a9f26a07c7740187fd52f6d9e56452cad}\label{class_supermercado_a9f26a07c7740187fd52f6d9e56452cad}} 
+\index{Supermercado@{Supermercado}!cadeia\+Supermercado@{cadeia\+Supermercado}}
+\index{cadeia\+Supermercado@{cadeia\+Supermercado}!Supermercado@{Supermercado}}
+\subsubsection{\texorpdfstring{cadeia\+Supermercado}{cadeiaSupermercado}}
+{\footnotesize\ttfamily string Supermercado\+::cadeia\+Supermercado\hspace{0.3cm}{\ttfamily [private]}}
+
+Cadeia a que o supermercado pertence \mbox{\Hypertarget{class_supermercado_a680cc129a590b0b87f2cb4dc200f9901}\label{class_supermercado_a680cc129a590b0b87f2cb4dc200f9901}} 
+\index{Supermercado@{Supermercado}!camioes@{camioes}}
+\index{camioes@{camioes}!Supermercado@{Supermercado}}
+\subsubsection{\texorpdfstring{camioes}{camioes}}
+{\footnotesize\ttfamily vector$<$\hyperlink{class_camiao}{Camiao}$\ast$$>$ Supermercado\+::camioes\hspace{0.3cm}{\ttfamily [private]}}
+
+Vetor de apontadores para os camiões do supermercado. \mbox{\Hypertarget{class_supermercado_a0f8759dc0543f6902264f9f9e7d436a0}\label{class_supermercado_a0f8759dc0543f6902264f9f9e7d436a0}} 
+\index{Supermercado@{Supermercado}!pedidos@{pedidos}}
+\index{pedidos@{pedidos}!Supermercado@{Supermercado}}
+\subsubsection{\texorpdfstring{pedidos}{pedidos}}
+{\footnotesize\ttfamily priority\+\_\+queue$<$\hyperlink{class_pedido}{Pedido}$\ast$, vector$<$\hyperlink{class_pedido}{Pedido}$\ast$$>$, \hyperlink{class_comparison_request_size}{Comparison\+Request\+Size}$>$ Supermercado\+::pedidos\hspace{0.3cm}{\ttfamily [private]}}
+
+Fila de prioridade dos pedidos do supermercado. Estes sao organizados por tamanho, estando na cabeça da fila o pedido de menor tamanho. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_supermercado_8h}{Supermercado.\+h}\item 
+\hyperlink{_supermercado_8cpp}{Supermercado.\+cpp}\end{DoxyCompactItemize}

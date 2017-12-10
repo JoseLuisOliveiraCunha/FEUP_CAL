@@ -1,0 +1,10 @@
+<map id="Vertex::getDist" name="Vertex::getDist">
+<area shape="rect" id="node2" href="$class_supermarket_manager.html#a19901c8d338b7579398373aeda62ecf2" title="SupermarketManager\l::makeRequest" alt="" coords="185,5,331,47"/>
+<area shape="rect" id="node5" href="$class_supermarket_manager.html#a6dbf83eef3433341c7a971860e3b8915" title="SupermarketManager\l::makeRandomRequests" alt="" coords="175,71,341,112"/>
+<area shape="rect" id="node6" href="$class_supermarket_manager.html#a3869489967f0a60d1b9c36a85b05998b" title="SupermarketManager\l::findNearestSupermarket" alt="" coords="173,136,343,177"/>
+<area shape="rect" id="node7" href="$class_supermercado.html#aa7ec7166a13ba5839aec12ff65b599aa" title="Supermercado::fillTrucksSize" alt="" coords="163,202,353,229"/>
+<area shape="rect" id="node9" href="$class_supermercado.html#afaaae4505e9900f6f44800118280aafb" title="Supermercado::fillTrucks\lDistance" alt="" coords="175,253,341,295"/>
+<area shape="rect" id="node3" href="$class_menu.html#aef9edee86d2ea460606361c92e061583" title="Menu::mainMenu" alt="" coords="443,46,565,73"/>
+<area shape="rect" id="node4" href="$class_menu.html#a506d3403e4cc1ad520bdae62e14ae92e" title="Menu::Menu" alt="" coords="655,46,749,73"/>
+<area shape="rect" id="node8" href="$class_supermercado.html#ad24337eae5c068802738319ec4331772" title="Supermercado::deliverRequests" alt="" coords="401,231,607,258"/>
+</map>

@@ -1,0 +1,230 @@
+\hypertarget{class_pedido}{}\section{Pedido Class Reference}
+\label{class_pedido}\index{Pedido@{Pedido}}
+
+
+{\ttfamily \#include $<$Pedido.\+h$>$}
+
+
+
+Collaboration diagram for Pedido\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=165pt]{class_pedido__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_pedido_a674084f1803ef97e5a4a03fc2651bde0}{Pedido} (\hyperlink{class_client}{Client} $\ast$\hyperlink{class_pedido_ab23e35be8be8b757ca81b1ef65c21717}{destination}, int \hyperlink{class_pedido_aeb8dc710976c78607a68485523a67cec}{tamanho})
+\item 
+int \hyperlink{class_pedido_a06797f0a6137df4f27a6602af083cdde}{get\+Client\+ID} ()
+\item 
+\hyperlink{class_client}{Client} $\ast$ \hyperlink{class_pedido_accbdb24c3c528262a713fd5da5e8af4a}{get\+Destination} ()
+\item 
+int \hyperlink{class_pedido_a4eb7ace45204e2c8c90c9e252833eca2}{get\+Tamanho} ()
+\item 
+void \hyperlink{class_pedido_a4779b145a7fba66eb5d3c9510ffe1adb}{set\+Tamanho} (int \hyperlink{class_pedido_aeb8dc710976c78607a68485523a67cec}{tamanho})
+\item 
+void \hyperlink{class_pedido_a728b4d0fb30b07498a18b28d92079abe}{add\+Tamanho} (int incremento)
+\item 
+int \hyperlink{class_pedido_acdb1147bb5d2c89d1076b40a9de4ce90}{get\+Distance} ()
+\item 
+void \hyperlink{class_pedido_a4c93021f91deafdf3e0e05fd26e2fa5d}{set\+Distance} (int \hyperlink{class_pedido_a5eb76f039a131307b89e56bc2c8aee0c}{distance})
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_client}{Client} $\ast$ \hyperlink{class_pedido_ab23e35be8be8b757ca81b1ef65c21717}{destination}
+\item 
+int \hyperlink{class_pedido_aeb8dc710976c78607a68485523a67cec}{tamanho} = 0
+\item 
+int \hyperlink{class_pedido_a5eb76f039a131307b89e56bc2c8aee0c}{distance} = \hyperlink{_graph_8h_a9fff7b07b84324efa12018456a60d91b}{I\+N\+T\+\_\+\+I\+N\+F\+I\+N\+I\+TY}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_pedido_a674084f1803ef97e5a4a03fc2651bde0}\label{class_pedido_a674084f1803ef97e5a4a03fc2651bde0}} 
+\index{Pedido@{Pedido}!Pedido@{Pedido}}
+\index{Pedido@{Pedido}!Pedido@{Pedido}}
+\subsubsection{\texorpdfstring{Pedido()}{Pedido()}}
+{\footnotesize\ttfamily Pedido\+::\+Pedido (\begin{DoxyParamCaption}\item[{\hyperlink{class_client}{Client} $\ast$}]{destination,  }\item[{int}]{tamanho }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Contrutor do pedido.
+
+
+\begin{DoxyParams}{Parameters}
+{\em destination} & cliente que efetuou o pedido \\
+\hline
+{\em tamanho} & tamanho do pedido \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_pedido_a728b4d0fb30b07498a18b28d92079abe}\label{class_pedido_a728b4d0fb30b07498a18b28d92079abe}} 
+\index{Pedido@{Pedido}!add\+Tamanho@{add\+Tamanho}}
+\index{add\+Tamanho@{add\+Tamanho}!Pedido@{Pedido}}
+\subsubsection{\texorpdfstring{add\+Tamanho()}{addTamanho()}}
+{\footnotesize\ttfamily void Pedido\+::add\+Tamanho (\begin{DoxyParamCaption}\item[{int}]{incremento }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Soma um valor ao tamanho do pedido. Se esta operação exceder a capacidade maxima definida para os pedidos, o pedido ficará com o tamanho máximo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em incremento} & valor a somar ao tamanho do pedido \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pedido_a728b4d0fb30b07498a18b28d92079abe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pedido_a06797f0a6137df4f27a6602af083cdde}\label{class_pedido_a06797f0a6137df4f27a6602af083cdde}} 
+\index{Pedido@{Pedido}!get\+Client\+ID@{get\+Client\+ID}}
+\index{get\+Client\+ID@{get\+Client\+ID}!Pedido@{Pedido}}
+\subsubsection{\texorpdfstring{get\+Client\+I\+D()}{getClientID()}}
+{\footnotesize\ttfamily int Pedido\+::get\+Client\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna o ID do cliente que fez o pedido
+
+\begin{DoxyReturn}{Returns}
+o ID do cliente que fez o pedido 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{class_pedido_a06797f0a6137df4f27a6602af083cdde_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pedido_a06797f0a6137df4f27a6602af083cdde_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pedido_accbdb24c3c528262a713fd5da5e8af4a}\label{class_pedido_accbdb24c3c528262a713fd5da5e8af4a}} 
+\index{Pedido@{Pedido}!get\+Destination@{get\+Destination}}
+\index{get\+Destination@{get\+Destination}!Pedido@{Pedido}}
+\subsubsection{\texorpdfstring{get\+Destination()}{getDestination()}}
+{\footnotesize\ttfamily \hyperlink{class_client}{Client}$\ast$ Pedido\+::get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna um apontador para o cliente que fez o pedido
+
+\begin{DoxyReturn}{Returns}
+um apontador para o cliente que fez o pedido 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pedido_accbdb24c3c528262a713fd5da5e8af4a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pedido_acdb1147bb5d2c89d1076b40a9de4ce90}\label{class_pedido_acdb1147bb5d2c89d1076b40a9de4ce90}} 
+\index{Pedido@{Pedido}!get\+Distance@{get\+Distance}}
+\index{get\+Distance@{get\+Distance}!Pedido@{Pedido}}
+\subsubsection{\texorpdfstring{get\+Distance()}{getDistance()}}
+{\footnotesize\ttfamily int Pedido\+::get\+Distance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna a distancia do cliente que efetuou o pedido ao supermercado encarregue pelo mesmo.
+
+\begin{DoxyReturn}{Returns}
+distancia do cliente que efetuou o pedido ao supermercado encarregue pelo mesmo. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pedido_acdb1147bb5d2c89d1076b40a9de4ce90_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pedido_a4eb7ace45204e2c8c90c9e252833eca2}\label{class_pedido_a4eb7ace45204e2c8c90c9e252833eca2}} 
+\index{Pedido@{Pedido}!get\+Tamanho@{get\+Tamanho}}
+\index{get\+Tamanho@{get\+Tamanho}!Pedido@{Pedido}}
+\subsubsection{\texorpdfstring{get\+Tamanho()}{getTamanho()}}
+{\footnotesize\ttfamily int Pedido\+::get\+Tamanho (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna o tamanho do pedido
+
+\begin{DoxyReturn}{Returns}
+o tamanho do pedido 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pedido_a4eb7ace45204e2c8c90c9e252833eca2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pedido_a4c93021f91deafdf3e0e05fd26e2fa5d}\label{class_pedido_a4c93021f91deafdf3e0e05fd26e2fa5d}} 
+\index{Pedido@{Pedido}!set\+Distance@{set\+Distance}}
+\index{set\+Distance@{set\+Distance}!Pedido@{Pedido}}
+\subsubsection{\texorpdfstring{set\+Distance()}{setDistance()}}
+{\footnotesize\ttfamily void Pedido\+::set\+Distance (\begin{DoxyParamCaption}\item[{int}]{distance }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Atribui um valor inteiro à distancia do pedido.
+
+
+\begin{DoxyParams}{Parameters}
+{\em distance} & valor a atribuir à distancia do pedido \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pedido_a4c93021f91deafdf3e0e05fd26e2fa5d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pedido_a4779b145a7fba66eb5d3c9510ffe1adb}\label{class_pedido_a4779b145a7fba66eb5d3c9510ffe1adb}} 
+\index{Pedido@{Pedido}!set\+Tamanho@{set\+Tamanho}}
+\index{set\+Tamanho@{set\+Tamanho}!Pedido@{Pedido}}
+\subsubsection{\texorpdfstring{set\+Tamanho()}{setTamanho()}}
+{\footnotesize\ttfamily void Pedido\+::set\+Tamanho (\begin{DoxyParamCaption}\item[{int}]{tamanho }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Atribui um valor inteiro ao tamanho do pedido.
+
+
+\begin{DoxyParams}{Parameters}
+{\em tamanho} & valor a atribuir ao tamanho do pedido \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_pedido_ab23e35be8be8b757ca81b1ef65c21717}\label{class_pedido_ab23e35be8be8b757ca81b1ef65c21717}} 
+\index{Pedido@{Pedido}!destination@{destination}}
+\index{destination@{destination}!Pedido@{Pedido}}
+\subsubsection{\texorpdfstring{destination}{destination}}
+{\footnotesize\ttfamily \hyperlink{class_client}{Client}$\ast$ Pedido\+::destination\hspace{0.3cm}{\ttfamily [private]}}
+
+Apontador para o cliente que efetuou o pedido. \mbox{\Hypertarget{class_pedido_a5eb76f039a131307b89e56bc2c8aee0c}\label{class_pedido_a5eb76f039a131307b89e56bc2c8aee0c}} 
+\index{Pedido@{Pedido}!distance@{distance}}
+\index{distance@{distance}!Pedido@{Pedido}}
+\subsubsection{\texorpdfstring{distance}{distance}}
+{\footnotesize\ttfamily int Pedido\+::distance = \hyperlink{_graph_8h_a9fff7b07b84324efa12018456a60d91b}{I\+N\+T\+\_\+\+I\+N\+F\+I\+N\+I\+TY}\hspace{0.3cm}{\ttfamily [private]}}
+
+Distancia do cliente que efetuou o pedido ao supermercado encarregue pelo mesmo. \mbox{\Hypertarget{class_pedido_aeb8dc710976c78607a68485523a67cec}\label{class_pedido_aeb8dc710976c78607a68485523a67cec}} 
+\index{Pedido@{Pedido}!tamanho@{tamanho}}
+\index{tamanho@{tamanho}!Pedido@{Pedido}}
+\subsubsection{\texorpdfstring{tamanho}{tamanho}}
+{\footnotesize\ttfamily int Pedido\+::tamanho = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+Tamanho do pedido. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_pedido_8h}{Pedido.\+h}\end{DoxyCompactItemize}

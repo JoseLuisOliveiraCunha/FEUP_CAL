@@ -1,0 +1,91 @@
+\hypertarget{_utils_8h}{}\section{Utils.\+h File Reference}
+\label{_utils_8h}\index{Utils.\+h@{Utils.\+h}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$limits$>$}\newline
+{\ttfamily \#include \char`\"{}Pedido.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Node\+Object.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for Utils.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{_utils_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_utils_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_comparison_request_size}{Comparison\+Request\+Size}
+\item 
+class \hyperlink{class_comparison_market_similarity}{Comparison\+Market\+Similarity}
+\item 
+class \hyperlink{class_comparison_request_distance}{Comparison\+Request\+Distance}
+\item 
+class \hyperlink{class_aux_edge}{Aux\+Edge}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{_utils_8h_a5df53e7fc01a5456f880c78af9b69437}{read\+Number} (int min, int max)
+\item 
+int \hyperlink{_utils_8h_a9887f971d12027e379e13fe222250136}{magnitude\+Order} (int num)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_utils_8h_a9887f971d12027e379e13fe222250136}\label{_utils_8h_a9887f971d12027e379e13fe222250136}} 
+\index{Utils.\+h@{Utils.\+h}!magnitude\+Order@{magnitude\+Order}}
+\index{magnitude\+Order@{magnitude\+Order}!Utils.\+h@{Utils.\+h}}
+\subsubsection{\texorpdfstring{magnitude\+Order()}{magnitudeOrder()}}
+{\footnotesize\ttfamily int magnitude\+Order (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+Retorna a ordem de grandeza do número dado. Esta função é utilizada no método \textquotesingle{}show\+Info\textquotesingle{} da classe \hyperlink{class_supermarket_manager}{Supermarket\+Manager} com a finalidade de verificar se um grafo é denso ou esparso.
+
+
+\begin{DoxyParams}{Parameters}
+{\em num} & o número cuja ordem de grandeza se pretende calcular \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{_utils_8h_a9887f971d12027e379e13fe222250136_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_utils_8h_a5df53e7fc01a5456f880c78af9b69437}\label{_utils_8h_a5df53e7fc01a5456f880c78af9b69437}} 
+\index{Utils.\+h@{Utils.\+h}!read\+Number@{read\+Number}}
+\index{read\+Number@{read\+Number}!Utils.\+h@{Utils.\+h}}
+\subsubsection{\texorpdfstring{read\+Number()}{readNumber()}}
+{\footnotesize\ttfamily int read\+Number (\begin{DoxyParamCaption}\item[{int}]{min,  }\item[{int}]{max }\end{DoxyParamCaption})}
+
+Pede continuamente ao utilizador um inteiro entre \textquotesingle{}min\textquotesingle{} e \textquotesingle{}max\textquotesingle{}. Retorna esse valor assim que seja válido.
+
+
+\begin{DoxyParams}{Parameters}
+{\em min} & valor minimo do intervalo aceite \\
+\hline
+{\em max} & valor máximo do intervalo aceite \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o primeiro inteiro válido introduzido pelo utilizador 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_utils_8h_a5df53e7fc01a5456f880c78af9b69437_icgraph}
+\end{center}
+\end{figure}

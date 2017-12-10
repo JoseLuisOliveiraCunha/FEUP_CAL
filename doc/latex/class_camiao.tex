@@ -1,0 +1,198 @@
+\hypertarget{class_camiao}{}\section{Camiao Class Reference}
+\label{class_camiao}\index{Camiao@{Camiao}}
+
+
+{\ttfamily \#include $<$Camiao.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_camiao_a8924e9cf4f02c60f1233599c891a5f03}{Camiao} ()
+\item 
+void \hyperlink{class_camiao_a6b10fd5e1c3dc7e23236d9ac609adcc4}{reset} ()
+\item 
+void \hyperlink{class_camiao_a1425f4d0a4e86f9e41cd1c5320831cec}{add\+Pedido} (\hyperlink{class_pedido}{Pedido} $\ast$pedido)
+\item 
+int \hyperlink{class_camiao_af1ddc476c31697269601a7385a07e95f}{get\+Capacidade\+Usada} ()
+\item 
+int \hyperlink{class_camiao_ad30eac198fbce433526d12da8b3dbab6}{get\+Capacidade\+Maxima} ()
+\item 
+int \hyperlink{class_camiao_a4921ceaf1c790339e83e2bcde913d6cc}{get\+Distance\+Covered} ()
+\item 
+void \hyperlink{class_camiao_a33ef278250ffa4137788a5f275cf1f4b}{add\+Distance} (int distance)
+\item 
+queue$<$ \hyperlink{class_pedido}{Pedido} $\ast$ $>$ \hyperlink{class_camiao_a4baf70f4627ed9bee652a86ec4fa70fe}{get\+Itenerario} ()
+\item 
+void \hyperlink{class_camiao_ad3081de0be4dfc4930b0cf674d3077d3}{print\+Itenerario} (int supermarket\+ID, int pos)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const int \hyperlink{class_camiao_a937608cbcb0e0ce51f0f6868fafb9ce7}{capacidade\+Maxima} = 100
+\item 
+int \hyperlink{class_camiao_aa486e5371c70048c8a88046c1a39051c}{capacidade\+Usada} = 0
+\item 
+queue$<$ \hyperlink{class_pedido}{Pedido} $\ast$ $>$ \hyperlink{class_camiao_aed76aba216d57a69565d997ba5d2b8d3}{itenerario}
+\item 
+int \hyperlink{class_camiao_afba63d9fec7c2fef600e22240d414f75}{distance\+Covered} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_camiao_a8924e9cf4f02c60f1233599c891a5f03}\label{class_camiao_a8924e9cf4f02c60f1233599c891a5f03}} 
+\index{Camiao@{Camiao}!Camiao@{Camiao}}
+\index{Camiao@{Camiao}!Camiao@{Camiao}}
+\subsubsection{\texorpdfstring{Camiao()}{Camiao()}}
+{\footnotesize\ttfamily Camiao\+::\+Camiao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Construtor por omissao de um camiao. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_camiao_a33ef278250ffa4137788a5f275cf1f4b}\label{class_camiao_a33ef278250ffa4137788a5f275cf1f4b}} 
+\index{Camiao@{Camiao}!add\+Distance@{add\+Distance}}
+\index{add\+Distance@{add\+Distance}!Camiao@{Camiao}}
+\subsubsection{\texorpdfstring{add\+Distance()}{addDistance()}}
+{\footnotesize\ttfamily void Camiao\+::add\+Distance (\begin{DoxyParamCaption}\item[{int}]{distance }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adiciona uma distancia a distancia total percorrida pelo camiao
+
+
+\begin{DoxyParams}{Parameters}
+{\em distance} & distancia a adicionar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_camiao_a1425f4d0a4e86f9e41cd1c5320831cec}\label{class_camiao_a1425f4d0a4e86f9e41cd1c5320831cec}} 
+\index{Camiao@{Camiao}!add\+Pedido@{add\+Pedido}}
+\index{add\+Pedido@{add\+Pedido}!Camiao@{Camiao}}
+\subsubsection{\texorpdfstring{add\+Pedido()}{addPedido()}}
+{\footnotesize\ttfamily void Camiao\+::add\+Pedido (\begin{DoxyParamCaption}\item[{\hyperlink{class_pedido}{Pedido} $\ast$}]{pedido }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adiciona um pedido ao itenerario a ser realizado pelo camiao. Atualiza a capacidade usada pelo camiao, somando-\/lhe o tamanho do pedido.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pedido} & apontador para o pedido a adicionar ao camiao \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=323pt]{class_camiao_a1425f4d0a4e86f9e41cd1c5320831cec_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_camiao_ad30eac198fbce433526d12da8b3dbab6}\label{class_camiao_ad30eac198fbce433526d12da8b3dbab6}} 
+\index{Camiao@{Camiao}!get\+Capacidade\+Maxima@{get\+Capacidade\+Maxima}}
+\index{get\+Capacidade\+Maxima@{get\+Capacidade\+Maxima}!Camiao@{Camiao}}
+\subsubsection{\texorpdfstring{get\+Capacidade\+Maxima()}{getCapacidadeMaxima()}}
+{\footnotesize\ttfamily int Camiao\+::get\+Capacidade\+Maxima (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna a capacidade maxima do camiao
+
+\begin{DoxyReturn}{Returns}
+a capacidade maxima do camiao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_camiao_af1ddc476c31697269601a7385a07e95f}\label{class_camiao_af1ddc476c31697269601a7385a07e95f}} 
+\index{Camiao@{Camiao}!get\+Capacidade\+Usada@{get\+Capacidade\+Usada}}
+\index{get\+Capacidade\+Usada@{get\+Capacidade\+Usada}!Camiao@{Camiao}}
+\subsubsection{\texorpdfstring{get\+Capacidade\+Usada()}{getCapacidadeUsada()}}
+{\footnotesize\ttfamily int Camiao\+::get\+Capacidade\+Usada (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna a capacidade atualmente usada pelo camiao
+
+\begin{DoxyReturn}{Returns}
+a capacidade atualmente usada pelo camiao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_camiao_a4921ceaf1c790339e83e2bcde913d6cc}\label{class_camiao_a4921ceaf1c790339e83e2bcde913d6cc}} 
+\index{Camiao@{Camiao}!get\+Distance\+Covered@{get\+Distance\+Covered}}
+\index{get\+Distance\+Covered@{get\+Distance\+Covered}!Camiao@{Camiao}}
+\subsubsection{\texorpdfstring{get\+Distance\+Covered()}{getDistanceCovered()}}
+{\footnotesize\ttfamily int Camiao\+::get\+Distance\+Covered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna a distancia total percorrida no itenerario do camiao
+
+\begin{DoxyReturn}{Returns}
+a distancia total percorrida no itenerario do camiao 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_camiao_a4921ceaf1c790339e83e2bcde913d6cc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_camiao_a4baf70f4627ed9bee652a86ec4fa70fe}\label{class_camiao_a4baf70f4627ed9bee652a86ec4fa70fe}} 
+\index{Camiao@{Camiao}!get\+Itenerario@{get\+Itenerario}}
+\index{get\+Itenerario@{get\+Itenerario}!Camiao@{Camiao}}
+\subsubsection{\texorpdfstring{get\+Itenerario()}{getItenerario()}}
+{\footnotesize\ttfamily queue$<$\hyperlink{class_pedido}{Pedido}$\ast$$>$ Camiao\+::get\+Itenerario (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna o itenerario do camiao
+
+\begin{DoxyReturn}{Returns}
+o itenerario do camiao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_camiao_ad3081de0be4dfc4930b0cf674d3077d3}\label{class_camiao_ad3081de0be4dfc4930b0cf674d3077d3}} 
+\index{Camiao@{Camiao}!print\+Itenerario@{print\+Itenerario}}
+\index{print\+Itenerario@{print\+Itenerario}!Camiao@{Camiao}}
+\subsubsection{\texorpdfstring{print\+Itenerario()}{printItenerario()}}
+{\footnotesize\ttfamily void Camiao\+::print\+Itenerario (\begin{DoxyParamCaption}\item[{int}]{supermarket\+ID,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+Imprime o itenerario do camiao de número \textquotesingle{}pos\textquotesingle{} pertencente ao supermercado de ID \textquotesingle{}supermarket\+ID\textquotesingle{}. O ID de um supermercado é atribuido sequencialmente aquando da leitura do ficheiro do grafo. Cada supermercado tem um vetor de camioes, sendo o numero de cada camiao obtido somando 1 ao seu indice nesse vetor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em supermarket\+ID} & ID do supermercado que possui este camiao \\
+\hline
+{\em pos} & numero deste camiao \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_camiao_ad3081de0be4dfc4930b0cf674d3077d3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_camiao_a6b10fd5e1c3dc7e23236d9ac609adcc4}\label{class_camiao_a6b10fd5e1c3dc7e23236d9ac609adcc4}} 
+\index{Camiao@{Camiao}!reset@{reset}}
+\index{reset@{reset}!Camiao@{Camiao}}
+\subsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily void Camiao\+::reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Coloca a zeros a capacidade usada e a distancia percorrida pelo camiao. 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_camiao_a937608cbcb0e0ce51f0f6868fafb9ce7}\label{class_camiao_a937608cbcb0e0ce51f0f6868fafb9ce7}} 
+\index{Camiao@{Camiao}!capacidade\+Maxima@{capacidade\+Maxima}}
+\index{capacidade\+Maxima@{capacidade\+Maxima}!Camiao@{Camiao}}
+\subsubsection{\texorpdfstring{capacidade\+Maxima}{capacidadeMaxima}}
+{\footnotesize\ttfamily const int Camiao\+::capacidade\+Maxima = 100\hspace{0.3cm}{\ttfamily [private]}}
+
+Capacidade de armazenamento maxima do camiao. Um camiao pode armazenar varios pedidos, tendo cada um deles um determinado tamanho. \mbox{\Hypertarget{class_camiao_aa486e5371c70048c8a88046c1a39051c}\label{class_camiao_aa486e5371c70048c8a88046c1a39051c}} 
+\index{Camiao@{Camiao}!capacidade\+Usada@{capacidade\+Usada}}
+\index{capacidade\+Usada@{capacidade\+Usada}!Camiao@{Camiao}}
+\subsubsection{\texorpdfstring{capacidade\+Usada}{capacidadeUsada}}
+{\footnotesize\ttfamily int Camiao\+::capacidade\+Usada = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+Capacidade que esta a ser usada pelo camiao, ou seja, a soma dos tamanhos dos pedidos armazenados pelo camiao neste momento. \mbox{\Hypertarget{class_camiao_afba63d9fec7c2fef600e22240d414f75}\label{class_camiao_afba63d9fec7c2fef600e22240d414f75}} 
+\index{Camiao@{Camiao}!distance\+Covered@{distance\+Covered}}
+\index{distance\+Covered@{distance\+Covered}!Camiao@{Camiao}}
+\subsubsection{\texorpdfstring{distance\+Covered}{distanceCovered}}
+{\footnotesize\ttfamily int Camiao\+::distance\+Covered = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+Distancia total percorrida pelo camiao no seu itenerario. \mbox{\Hypertarget{class_camiao_aed76aba216d57a69565d997ba5d2b8d3}\label{class_camiao_aed76aba216d57a69565d997ba5d2b8d3}} 
+\index{Camiao@{Camiao}!itenerario@{itenerario}}
+\index{itenerario@{itenerario}!Camiao@{Camiao}}
+\subsubsection{\texorpdfstring{itenerario}{itenerario}}
+{\footnotesize\ttfamily queue$<$\hyperlink{class_pedido}{Pedido}$\ast$$>$ Camiao\+::itenerario\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_camiao_8h}{Camiao.\+h}\item 
+\hyperlink{_camiao_8cpp}{Camiao.\+cpp}\end{DoxyCompactItemize}

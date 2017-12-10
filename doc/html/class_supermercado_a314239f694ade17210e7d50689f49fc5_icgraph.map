@@ -1,0 +1,6 @@
+<map id="Supermercado::addRequest" name="Supermercado::addRequest">
+<area shape="rect" id="node2" href="$class_supermarket_manager.html#a19901c8d338b7579398373aeda62ecf2" title="SupermarketManager\l::makeRequest" alt="" coords="245,5,392,47"/>
+<area shape="rect" id="node5" href="$class_supermarket_manager.html#a6dbf83eef3433341c7a971860e3b8915" title="SupermarketManager\l::makeRandomRequests" alt="" coords="236,71,401,112"/>
+<area shape="rect" id="node3" href="$class_menu.html#aef9edee86d2ea460606361c92e061583" title="Menu::mainMenu" alt="" coords="449,46,572,73"/>
+<area shape="rect" id="node4" href="$class_menu.html#a506d3403e4cc1ad520bdae62e14ae92e" title="Menu::Menu" alt="" coords="620,46,715,73"/>
+</map>

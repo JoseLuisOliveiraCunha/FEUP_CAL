@@ -1,0 +1,7 @@
+<map id="Pedido::getClientID" name="Pedido::getClientID">
+<area shape="rect" id="node2" href="$class_supermercado.html#a314239f694ade17210e7d50689f49fc5" title="Supermercado::addRequest" alt="" coords="187,46,369,73"/>
+<area shape="rect" id="node3" href="$class_supermarket_manager.html#a19901c8d338b7579398373aeda62ecf2" title="SupermarketManager\l::makeRequest" alt="" coords="427,5,573,47"/>
+<area shape="rect" id="node6" href="$class_supermarket_manager.html#a6dbf83eef3433341c7a971860e3b8915" title="SupermarketManager\l::makeRandomRequests" alt="" coords="417,71,583,112"/>
+<area shape="rect" id="node4" href="$class_menu.html#aef9edee86d2ea460606361c92e061583" title="Menu::mainMenu" alt="" coords="631,46,753,73"/>
+<area shape="rect" id="node5" href="$class_menu.html#a506d3403e4cc1ad520bdae62e14ae92e" title="Menu::Menu" alt="" coords="801,46,896,73"/>
+</map>

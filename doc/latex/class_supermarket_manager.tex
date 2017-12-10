@@ -1,0 +1,457 @@
+\hypertarget{class_supermarket_manager}{}\section{Supermarket\+Manager Class Reference}
+\label{class_supermarket_manager}\index{Supermarket\+Manager@{Supermarket\+Manager}}
+
+
+{\ttfamily \#include $<$Supermarket\+Manager.\+h$>$}
+
+
+
+Collaboration diagram for Supermarket\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{class_supermarket_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_supermarket_manager_a32727a0b65ce19d2dddf66d586b0fa57}{Supermarket\+Manager} ()
+\item 
+void \hyperlink{class_supermarket_manager_a882d9161a59b259f5b0f62c230c11db9}{populate\+Graph} ()
+\item 
+void \hyperlink{class_supermarket_manager_abab275f63e6169a76efd92c90aaac0b4}{make\+Graph} ()
+\item 
+void \hyperlink{class_supermarket_manager_a0072988df7db4459fe0a409894af51a4}{load\+Graph} ()
+\item 
+\hyperlink{class_client}{Client} $\ast$ \hyperlink{class_supermarket_manager_a15c50e904600847775367ff4f626f62d}{get\+Client} (int id)
+\item 
+void \hyperlink{class_supermarket_manager_a19901c8d338b7579398373aeda62ecf2}{make\+Request} ()
+\item 
+void \hyperlink{class_supermarket_manager_a6dbf83eef3433341c7a971860e3b8915}{make\+Random\+Requests} ()
+\item 
+\hyperlink{class_supermercado}{Supermercado} $\ast$ \hyperlink{class_supermarket_manager_a3869489967f0a60d1b9c36a85b05998b}{find\+Nearest\+Supermarket} (\hyperlink{class_client}{Client} $\ast$client)
+\item 
+int \hyperlink{class_supermarket_manager_a45ed55914bea37bcf0d5757d1ce027c4}{input\+Client\+ID} ()
+\item 
+void \hyperlink{class_supermarket_manager_a034d77cc6da77516f6dbb4d6c3c0513d}{deliver\+All\+Requests} (int choice)
+\item 
+void \hyperlink{class_supermarket_manager_a3bbfc2db4c66bbaab3a5536c7205a818}{show\+Info} ()
+\item 
+void \hyperlink{class_supermarket_manager_a325c08bab73c6ddfe61dbb600c8d55fd}{strongly\+Connected\+Components} ()
+\item 
+bool \hyperlink{class_supermarket_manager_a6a688cb8cec4cc323cf4e53e04068c2c}{kmp\+Matcher} (string T, string P)
+\item 
+vector$<$ int $>$ \hyperlink{class_supermarket_manager_a3f18b0466fcb9369084ecd0c4e2d2e4a}{prefix\+Computation} (string P)
+\item 
+int \hyperlink{class_supermarket_manager_a16c8f9e3da09e91cb50d0ae932bb4eb2}{edit\+Distance} (string T, string P)
+\item 
+void \hyperlink{class_supermarket_manager_a23d192df8b8a56e317632845f9bb81d6}{check\+Supermarket\+Existence} (\hyperlink{class_edge}{Edge}$<$ \hyperlink{class_node_object}{Node\+Object} $\ast$$>$ e)
+\item 
+void \hyperlink{class_supermarket_manager_a7eca833133baf500e2a63b2ec9746b1d}{check\+Street} (\hyperlink{class_node_object}{Node\+Object} $\ast$market)
+\item 
+void \hyperlink{class_supermarket_manager_a7fa00d7adf078ca864908c901371a60c}{exact\+Search\+Street} ()
+\item 
+void \hyperlink{class_supermarket_manager_a0aa3fa8dab27db5f4960b840a2dd871c}{approximate\+Search\+Street} ()
+\item 
+void \hyperlink{class_supermarket_manager_a9841cd0c676abc1f128a68bb71bc2683}{exact\+Search\+Supermarket} ()
+\item 
+void \hyperlink{class_supermarket_manager_af797d69ada273a0582a619a0fc8f0638}{approximate\+Search\+Supermarket} ()
+\item 
+void \hyperlink{class_supermarket_manager_addbb66cfbe7d097687595c38e16b9c62}{exact\+Search\+District} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_graph}{Graph}$<$ \hyperlink{class_node_object}{Node\+Object} $\ast$ $>$ \hyperlink{class_supermarket_manager_ab2cc638ffffc81beda833ca864e8bd62}{graph}
+\item 
+vector$<$ \hyperlink{class_client}{Client} $\ast$ $>$ \hyperlink{class_supermarket_manager_a48c5227a7d0ca5f8db9de726184e116a}{client\+List}
+\item 
+vector$<$ \hyperlink{class_supermercado}{Supermercado} $\ast$ $>$ \hyperlink{class_supermarket_manager_a122812406afbf7d0d130d39e6921d5f5}{market\+List}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe que gere uma cadeia de supermercados e os seus clientes 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_supermarket_manager_a32727a0b65ce19d2dddf66d586b0fa57}\label{class_supermarket_manager_a32727a0b65ce19d2dddf66d586b0fa57}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!Supermarket\+Manager@{Supermarket\+Manager}}
+\index{Supermarket\+Manager@{Supermarket\+Manager}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{Supermarket\+Manager()}{SupermarketManager()}}
+{\footnotesize\ttfamily Supermarket\+Manager\+::\+Supermarket\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Construtor por omissao 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_supermarket_manager_a0aa3fa8dab27db5f4960b840a2dd871c}\label{class_supermarket_manager_a0aa3fa8dab27db5f4960b840a2dd871c}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!approximate\+Search\+Street@{approximate\+Search\+Street}}
+\index{approximate\+Search\+Street@{approximate\+Search\+Street}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{approximate\+Search\+Street()}{approximateSearchStreet()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::approximate\+Search\+Street (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Realiza a pesquisa aproximada de ruas Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermarket_manager_a0aa3fa8dab27db5f4960b840a2dd871c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermarket_manager_af797d69ada273a0582a619a0fc8f0638}\label{class_supermarket_manager_af797d69ada273a0582a619a0fc8f0638}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!approximate\+Search\+Supermarket@{approximate\+Search\+Supermarket}}
+\index{approximate\+Search\+Supermarket@{approximate\+Search\+Supermarket}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{approximate\+Search\+Supermarket()}{approximateSearchSupermarket()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::approximate\+Search\+Supermarket (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Realiza a pesquisa aproximada de cadeias de supermercados Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermarket_manager_af797d69ada273a0582a619a0fc8f0638_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermarket_manager_a7eca833133baf500e2a63b2ec9746b1d}\label{class_supermarket_manager_a7eca833133baf500e2a63b2ec9746b1d}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!check\+Street@{check\+Street}}
+\index{check\+Street@{check\+Street}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{check\+Street()}{checkStreet()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::check\+Street (\begin{DoxyParamCaption}\item[{\hyperlink{class_node_object}{Node\+Object} $\ast$}]{market }\end{DoxyParamCaption})}
+
+Imprime o nome da(s) rua(s) em que o supermercado se encontra 
+\begin{DoxyParams}{Parameters}
+{\em market} & supermercado a pesquisar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_supermarket_manager_a23d192df8b8a56e317632845f9bb81d6}\label{class_supermarket_manager_a23d192df8b8a56e317632845f9bb81d6}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!check\+Supermarket\+Existence@{check\+Supermarket\+Existence}}
+\index{check\+Supermarket\+Existence@{check\+Supermarket\+Existence}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{check\+Supermarket\+Existence()}{checkSupermarketExistence()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::check\+Supermarket\+Existence (\begin{DoxyParamCaption}\item[{\hyperlink{class_edge}{Edge}$<$ \hyperlink{class_node_object}{Node\+Object} $\ast$$>$}]{e }\end{DoxyParamCaption})}
+
+Imprime as informacoes dos supermercados, se existirem, que se encontram na rua 
+\begin{DoxyParams}{Parameters}
+{\em e} & rua a pesquisar \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{class_supermarket_manager_a23d192df8b8a56e317632845f9bb81d6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermarket_manager_a034d77cc6da77516f6dbb4d6c3c0513d}\label{class_supermarket_manager_a034d77cc6da77516f6dbb4d6c3c0513d}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!deliver\+All\+Requests@{deliver\+All\+Requests}}
+\index{deliver\+All\+Requests@{deliver\+All\+Requests}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{deliver\+All\+Requests()}{deliverAllRequests()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::deliver\+All\+Requests (\begin{DoxyParamCaption}\item[{int}]{choice }\end{DoxyParamCaption})}
+
+Esta fun��o entrega os pedidos pendentes de todos os supermercados. A abordagem utilizada depender� do parametro \textquotesingle{}choice\textquotesingle{}. Ver fun��o \textquotesingle{}deliver\+Requests\textquotesingle{} da classe \hyperlink{class_supermercado}{Supermercado}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em choice} & inteiro que determina a estrat�gia utilizada na entrega dos pedidos \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermarket_manager_a034d77cc6da77516f6dbb4d6c3c0513d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermarket_manager_a16c8f9e3da09e91cb50d0ae932bb4eb2}\label{class_supermarket_manager_a16c8f9e3da09e91cb50d0ae932bb4eb2}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!edit\+Distance@{edit\+Distance}}
+\index{edit\+Distance@{edit\+Distance}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{edit\+Distance()}{editDistance()}}
+{\footnotesize\ttfamily int Supermarket\+Manager\+::edit\+Distance (\begin{DoxyParamCaption}\item[{string}]{T,  }\item[{string}]{P }\end{DoxyParamCaption})}
+
+Retorna a distancia entre duas strings 
+\begin{DoxyParams}{Parameters}
+{\em T} & string onde a comparacao ocorre \\
+\hline
+{\em P} & string onde a comparacao ocorre \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+distancia entre as strings 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_supermarket_manager_addbb66cfbe7d097687595c38e16b9c62}\label{class_supermarket_manager_addbb66cfbe7d097687595c38e16b9c62}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!exact\+Search\+District@{exact\+Search\+District}}
+\index{exact\+Search\+District@{exact\+Search\+District}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{exact\+Search\+District()}{exactSearchDistrict()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::exact\+Search\+District (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Realiza a pesquisa exacta de ruas Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermarket_manager_addbb66cfbe7d097687595c38e16b9c62_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermarket_manager_a7fa00d7adf078ca864908c901371a60c}\label{class_supermarket_manager_a7fa00d7adf078ca864908c901371a60c}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!exact\+Search\+Street@{exact\+Search\+Street}}
+\index{exact\+Search\+Street@{exact\+Search\+Street}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{exact\+Search\+Street()}{exactSearchStreet()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::exact\+Search\+Street (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Realiza a pesquisa exacta de ruas Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermarket_manager_a7fa00d7adf078ca864908c901371a60c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermarket_manager_a9841cd0c676abc1f128a68bb71bc2683}\label{class_supermarket_manager_a9841cd0c676abc1f128a68bb71bc2683}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!exact\+Search\+Supermarket@{exact\+Search\+Supermarket}}
+\index{exact\+Search\+Supermarket@{exact\+Search\+Supermarket}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{exact\+Search\+Supermarket()}{exactSearchSupermarket()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::exact\+Search\+Supermarket (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Realiza a pesquisa exacta de cadeias de supermercados Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermarket_manager_a9841cd0c676abc1f128a68bb71bc2683_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermarket_manager_a3869489967f0a60d1b9c36a85b05998b}\label{class_supermarket_manager_a3869489967f0a60d1b9c36a85b05998b}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!find\+Nearest\+Supermarket@{find\+Nearest\+Supermarket}}
+\index{find\+Nearest\+Supermarket@{find\+Nearest\+Supermarket}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{find\+Nearest\+Supermarket()}{findNearestSupermarket()}}
+{\footnotesize\ttfamily \hyperlink{class_supermercado}{Supermercado} $\ast$ Supermarket\+Manager\+::find\+Nearest\+Supermarket (\begin{DoxyParamCaption}\item[{\hyperlink{class_client}{Client} $\ast$}]{client }\end{DoxyParamCaption})}
+
+Retorna o supermercado mais proximo do cliente dado. Caso nenhum supermercado desta cadeia tenha um caminho at� ao cliente, a fun��o retorna \textquotesingle{}nullptr\textquotesingle{}.
+
+\begin{DoxyReturn}{Returns}
+o supermercado mais proximo do cliente dado 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{class_supermarket_manager_a3869489967f0a60d1b9c36a85b05998b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermarket_manager_a15c50e904600847775367ff4f626f62d}\label{class_supermarket_manager_a15c50e904600847775367ff4f626f62d}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!get\+Client@{get\+Client}}
+\index{get\+Client@{get\+Client}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{get\+Client()}{getClient()}}
+{\footnotesize\ttfamily \hyperlink{class_client}{Client} $\ast$ Supermarket\+Manager\+::get\+Client (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+Retorna um apontador para o cliente de ID dado.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID do cliente \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+um apontador para o cliente de ID dado 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_supermarket_manager_a45ed55914bea37bcf0d5757d1ce027c4}\label{class_supermarket_manager_a45ed55914bea37bcf0d5757d1ce027c4}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!input\+Client\+ID@{input\+Client\+ID}}
+\index{input\+Client\+ID@{input\+Client\+ID}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{input\+Client\+I\+D()}{inputClientID()}}
+{\footnotesize\ttfamily int Supermarket\+Manager\+::input\+Client\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Pede continuamente ao utilizador o ID de um cliente at� que este corresponda ao ID de um cliente que exista no vetor client\+List. Retorna esse ID, garantidamente v�lido.
+
+\begin{DoxyReturn}{Returns}
+ID do cliente validado 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=295pt]{class_supermarket_manager_a45ed55914bea37bcf0d5757d1ce027c4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermarket_manager_a6a688cb8cec4cc323cf4e53e04068c2c}\label{class_supermarket_manager_a6a688cb8cec4cc323cf4e53e04068c2c}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!kmp\+Matcher@{kmp\+Matcher}}
+\index{kmp\+Matcher@{kmp\+Matcher}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{kmp\+Matcher()}{kmpMatcher()}}
+{\footnotesize\ttfamily bool Supermarket\+Manager\+::kmp\+Matcher (\begin{DoxyParamCaption}\item[{string}]{T,  }\item[{string}]{P }\end{DoxyParamCaption})}
+
+Pesquisa de string exata 
+\begin{DoxyParams}{Parameters}
+{\em T} & string onde ocorre a pesquisa \\
+\hline
+{\em P} & string a ser pesquisada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna true se P ocorre em T, false caso contrario 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_supermarket_manager_a0072988df7db4459fe0a409894af51a4}\label{class_supermarket_manager_a0072988df7db4459fe0a409894af51a4}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!load\+Graph@{load\+Graph}}
+\index{load\+Graph@{load\+Graph}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{load\+Graph()}{loadGraph()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::load\+Graph (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Le de um ficheiro as informacoes necessarias para preencher o vetores client\+List e market\+List, adicionar os respetivos nos ao grafo e ainda as suas arestas. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_supermarket_manager_a0072988df7db4459fe0a409894af51a4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermarket_manager_a0072988df7db4459fe0a409894af51a4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermarket_manager_abab275f63e6169a76efd92c90aaac0b4}\label{class_supermarket_manager_abab275f63e6169a76efd92c90aaac0b4}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!make\+Graph@{make\+Graph}}
+\index{make\+Graph@{make\+Graph}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{make\+Graph()}{makeGraph()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::make\+Graph (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Cria um grafo com um numero de clientes, supermercados e arestas introduzidos pelo utilizador. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=315pt]{class_supermarket_manager_abab275f63e6169a76efd92c90aaac0b4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermarket_manager_abab275f63e6169a76efd92c90aaac0b4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermarket_manager_a6dbf83eef3433341c7a971860e3b8915}\label{class_supermarket_manager_a6dbf83eef3433341c7a971860e3b8915}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!make\+Random\+Requests@{make\+Random\+Requests}}
+\index{make\+Random\+Requests@{make\+Random\+Requests}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{make\+Random\+Requests()}{makeRandomRequests()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::make\+Random\+Requests (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Atribui um pedido de tamanho aletorio a todos os clientes. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermarket_manager_a6dbf83eef3433341c7a971860e3b8915_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermarket_manager_a6dbf83eef3433341c7a971860e3b8915_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermarket_manager_a19901c8d338b7579398373aeda62ecf2}\label{class_supermarket_manager_a19901c8d338b7579398373aeda62ecf2}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!make\+Request@{make\+Request}}
+\index{make\+Request@{make\+Request}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{make\+Request()}{makeRequest()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::make\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Pede ao utilizador o ID do cliente e o tamanho do pedido que este cliente pretende efetuar. Em seguida, encontra o supermercado mais pr�ximo do cliente, adicionando o pedido � fila de prioridade de pedidos desse supermercado. Caso nenhum supermercado desta cadeia tenha um caminho at� ao cliente, a fun��o mostra uma mensagem de erro e retorna. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermarket_manager_a19901c8d338b7579398373aeda62ecf2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermarket_manager_a19901c8d338b7579398373aeda62ecf2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermarket_manager_a882d9161a59b259f5b0f62c230c11db9}\label{class_supermarket_manager_a882d9161a59b259f5b0f62c230c11db9}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!populate\+Graph@{populate\+Graph}}
+\index{populate\+Graph@{populate\+Graph}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{populate\+Graph()}{populateGraph()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::populate\+Graph (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Adiciona ao grafo os v�rtices correspondentes aos clientes e supermercados dos vetores client\+List e market\+List \mbox{\Hypertarget{class_supermarket_manager_a3f18b0466fcb9369084ecd0c4e2d2e4a}\label{class_supermarket_manager_a3f18b0466fcb9369084ecd0c4e2d2e4a}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!prefix\+Computation@{prefix\+Computation}}
+\index{prefix\+Computation@{prefix\+Computation}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{prefix\+Computation()}{prefixComputation()}}
+{\footnotesize\ttfamily vector$<$ int $>$ Supermarket\+Manager\+::prefix\+Computation (\begin{DoxyParamCaption}\item[{string}]{P }\end{DoxyParamCaption})}
+
+Realiza o preprocessamento da string a ser pesquisada na funcao kmp\+Matcher 
+\begin{DoxyParams}{Parameters}
+{\em P} & string a ser preprocessada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna um vetor com o resultado do preprocessamento da string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_supermarket_manager_a3bbfc2db4c66bbaab3a5536c7205a818}\label{class_supermarket_manager_a3bbfc2db4c66bbaab3a5536c7205a818}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!show\+Info@{show\+Info}}
+\index{show\+Info@{show\+Info}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{show\+Info()}{showInfo()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::show\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Imprime algumas informa��es tais como o n�mero de clientes e de supermercados desta cadeia de supermercados. Efetua uma an�lise da densidade e conetividade do grafo e mostra ainda as suas componentes fortemente conexas. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{class_supermarket_manager_a3bbfc2db4c66bbaab3a5536c7205a818_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_supermarket_manager_a325c08bab73c6ddfe61dbb600c8d55fd}\label{class_supermarket_manager_a325c08bab73c6ddfe61dbb600c8d55fd}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!strongly\+Connected\+Components@{strongly\+Connected\+Components}}
+\index{strongly\+Connected\+Components@{strongly\+Connected\+Components}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{strongly\+Connected\+Components()}{stronglyConnectedComponents()}}
+{\footnotesize\ttfamily void Supermarket\+Manager\+::strongly\+Connected\+Components (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Imprime as componentes fortemente conexas do grafo. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_supermarket_manager_a325c08bab73c6ddfe61dbb600c8d55fd_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_supermarket_manager_a48c5227a7d0ca5f8db9de726184e116a}\label{class_supermarket_manager_a48c5227a7d0ca5f8db9de726184e116a}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!client\+List@{client\+List}}
+\index{client\+List@{client\+List}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{client\+List}{clientList}}
+{\footnotesize\ttfamily vector$<$\hyperlink{class_client}{Client}$\ast$$>$ Supermarket\+Manager\+::client\+List\hspace{0.3cm}{\ttfamily [private]}}
+
+Vetor de apontadores para os clientes desta cadeia de supermercados. \mbox{\Hypertarget{class_supermarket_manager_ab2cc638ffffc81beda833ca864e8bd62}\label{class_supermarket_manager_ab2cc638ffffc81beda833ca864e8bd62}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!graph@{graph}}
+\index{graph@{graph}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{graph}{graph}}
+{\footnotesize\ttfamily \hyperlink{class_graph}{Graph}$<$\hyperlink{class_node_object}{Node\+Object}$\ast$$>$ Supermarket\+Manager\+::graph\hspace{0.3cm}{\ttfamily [private]}}
+
+Grafo de n�s correspondestes aos clientes e supermercados. \mbox{\Hypertarget{class_supermarket_manager_a122812406afbf7d0d130d39e6921d5f5}\label{class_supermarket_manager_a122812406afbf7d0d130d39e6921d5f5}} 
+\index{Supermarket\+Manager@{Supermarket\+Manager}!market\+List@{market\+List}}
+\index{market\+List@{market\+List}!Supermarket\+Manager@{Supermarket\+Manager}}
+\subsubsection{\texorpdfstring{market\+List}{marketList}}
+{\footnotesize\ttfamily vector$<$\hyperlink{class_supermercado}{Supermercado}$\ast$$>$ Supermarket\+Manager\+::market\+List\hspace{0.3cm}{\ttfamily [private]}}
+
+Vetor de apontadores para os supermercados desta cadeia de supermercados. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_supermarket_manager_8h}{Supermarket\+Manager.\+h}\item 
+\hyperlink{_supermarket_manager_8cpp}{Supermarket\+Manager.\+cpp}\end{DoxyCompactItemize}

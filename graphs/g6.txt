@@ -1,0 +1,1135 @@
+//Nr clients
+170
+//1 supermarket per line (nr of trucks)
+9 :DeBorla
+9 Galp
+5 Dona Graca
+1 Modelo
+5 Feira Nova
+8 Repsol
+5 Repsol
+9 Pingo Doce
+9 Jumbo
+2 Ganilho
+10 Mini Preco
+8 Mini Preco
+8 Ganilho
+7 Continente
+1 Mini Preco
+2 Ganilho
+2 LiDL
+2 Ganilho
+8 Ganilho
+8 Modelo
+2 Repsol
+6 Continente
+9 Ganilho
+3 Ganilho
+7 WallMart
+7 Dona Graca
+4 Modelo
+10 Tangerina
+9 :DeBorla
+1 Galp
+//Edges (src, dest, weight, street, district)
+39 7 10 Rua Arkansas Fallview Mccormick Old Gate - Ohio
+199 17 7 Rua Alpine - Maryland
+197 76 2 Rua Karstens Evergreen Ridgeway - Massachusetts
+165 162 3 Rua Kim - Virginia
+49 22 1 Rua Roxbury Meadow Ridge Barby Crest Line - Connecticut
+92 198 6 Rua Forest Dale Rigney Prentice - Delaware
+138 69 2 Rua 1st - Pennsylvania
+49 165 10 Rua Oakridge - Texas
+79 192 8 Rua Maywood - Connecticut
+78 7 8 Rua 8th - Maryland
+78 12 9 Rua Melody Wayridge - District of Columbia
+50 195 8 Rua Elgar Roxbury - Ohio
+5 90 1 Rua Knutson Beilfuss Morrow Reindahl - Massachusetts
+141 106 6 Rua Bonner Steensland Scoville - Virginia
+125 41 4 Rua Katie Lunder - North Carolina
+144 23 10 Rua Coolidge Calypso - Pennsylvania
+15 156 4 Rua Northwestern Hansons Texas - West Virginia
+63 121 6 Rua Westridge - Texas
+74 36 6 Rua Laurel Havey Monterey Golf Course Del Sol Fulton Schiller Wayridge Dahle Ruskin Crescent Oaks Kropf - District of Columbia
+35 51 6 Rua Dwight - Oklahoma
+131 20 9 Rua Bowman - Maryland
+59 72 9 Rua Pankratz - District of Columbia
+25 164 6 Rua 2nd - Wisconsin
+137 17 1 Rua Carberry - West Virginia
+173 7 7 Rua Bonner Sauthoff - District of Columbia
+136 67 8 Rua Pepper Wood Graedel Northland Tony Emmet Columbus Johnson Crescent Oaks - New Mexico
+35 8 9 Rua Northland - Connecticut
+63 72 10 Rua Sycamore - Virginia
+12 68 9 Rua Hooker - Wisconsin
+57 118 10 Rua Bowman Trailsway - Massachusetts
+196 96 6 Rua Grim Carey - Massachusetts
+118 96 9 Rua Victoria Fisk - New Mexico
+100 87 5 Rua Twin Pines - Oklahoma
+133 6 2 Rua Daystar Holmberg - Georgia
+175 192 9 Rua Russell Darwin Morningstar - Massachusetts
+73 126 5 Rua Porter Main - North Carolina
+117 158 7 Rua Quincy - Georgia
+43 1 4 Rua Spenser Sheridan Mcbride Linden - Texas
+106 19 1 Rua Havey Harbort Caliangt Spenser Shopko - Ohio
+134 186 3 Rua Butterfield Prentice Shopko Packers Center - Connecticut
+4 171 10 Rua Hanson - Wisconsin
+121 3 3 Rua Russell - Utah
+75 38 2 Rua Mosinee Tennessee - North Carolina
+140 158 8 Rua Melody Hovde Declaration Tony Buell - Florida
+141 69 5 Rua Little Fleur - Indiana
+108 123 3 Rua Carey Fuller - Pennsylvania
+147 184 4 Rua Becker Crescent Oaks - Arizona
+14 67 7 Rua Schmedeman Reinke Spohn - Illinois
+44 171 6 Rua Columbus - Maryland
+78 82 2 Rua Center - Ohio
+190 4 1 Rua Transport - Michigan
+188 70 4 Rua Barby Farragut - California
+1 15 10 Rua Annamark Dennis Victoria - Pennsylvania
+53 111 5 Rua Pearson Reindahl Lighthouse Bay Victoria - Nevada
+60 115 7 Rua Scoville Pleasure Green Ridge Butternut - Michigan
+18 15 5 Rua Bay - Delaware
+38 178 4 Rua Towne - Tennessee
+59 86 3 Rua Texas - New Mexico
+144 37 3 Rua Lakeland - Massachusetts
+62 160 9 Rua Darwin - Wisconsin
+84 179 4 Rua Declaration - Nevada
+182 200 2 Rua Fisk - Virginia
+48 97 10 Rua Anderson - New Mexico
+71 24 3 Rua Washington - Michigan
+154 124 2 Rua Twin Pines Forest Dale Iowa - Indiana
+4 163 3 Rua Lakewood - New York
+176 192 9 Rua Green Lillian - West Virginia
+29 173 10 Rua Eagan La Follette - Texas
+78 22 10 Rua Johnson Hazelcrest - Utah
+1 184 9 Rua Mayer Acker Redwing Hooker - Delaware
+32 177 7 Rua Cherokee - New Mexico
+139 5 8 Rua Eagle Crest - Illinois
+132 160 10 Rua High Crossing Trailsway 2nd Prentice Parkside Nancy - Connecticut
+158 87 6 Rua Rowland Pearson Melody Kings Fordem - Maryland
+172 48 8 Rua Lillian - New Mexico
+75 189 9 Rua Mccormick Forest Dale - West Virginia
+94 141 7 Rua Muir - Utah
+9 87 6 Rua Annamark Elgar - Wisconsin
+147 120 3 Rua Gulseth - Tennessee
+119 168 1 Rua Dunning Manitowish - District of Columbia
+10 76 3 Rua Monterey - Maryland
+54 49 9 Rua Lighthouse Bay - Arizona
+40 45 2 Rua Bowman Northland Westport - Massachusetts
+5 64 10 Rua Reindahl Hoffman Dwight Blue Bill Park - Georgia
+18 159 9 Rua Erie Banding - Indiana
+20 24 5 Rua Melody - Ohio
+39 194 3 Rua Stoughton - Georgia
+130 95 8 Rua Almo Fair Oaks - Ohio
+103 88 6 Rua Alpine Dwight - Utah
+83 79 2 Rua Dottie - Tennessee
+6 134 2 Rua Knutson Red Cloud - New York
+192 114 9 Rua Lillian Atwood - New Mexico
+98 197 10 Rua Fordem - Utah
+88 97 1 Rua Stoughton Union Dayton - Connecticut
+51 90 3 Rua Hintze Glacier Hill Harper - Utah
+28 65 10 Rua Mendota Holy Cross Butterfield - Michigan
+161 176 8 Rua East Birchwood Buena Vista - Massachusetts
+132 78 6 Rua Scott Darwin Gerald - Tennessee
+30 60 6 Rua Novick - Indiana
+65 173 4 Rua Charing Cross - West Virginia
+24 182 10 Rua Gateway Burning Wood - Massachusetts
+197 145 3 Rua Express - District of Columbia
+110 194 7 Rua Farwell Monica Katie - Georgia
+55 192 7 Rua Pennsylvania Loomis - Ohio
+150 28 5 Rua Glacier Hill Waywood - Maryland
+9 176 2 Rua Merry Schurz - North Carolina
+162 98 8 Rua Springview Gerald - California
+67 134 10 Rua Mitchell - District of Columbia
+151 28 8 Rua Nelson - Illinois
+3 22 10 Rua Butternut Burrows - North Carolina
+32 53 3 Rua Saint Paul - Indiana
+151 90 9 Rua Scoville Dwight - Massachusetts
+153 147 3 Rua Hermina - Massachusetts
+186 65 3 Rua Village Green - Utah
+185 23 3 Rua Nancy - Indiana
+42 14 5 Rua Arizona Summerview - Maryland
+130 129 4 Rua Nancy Tennessee Sage Maryland Delaware Eliot - West Virginia
+149 87 9 Rua Prairie Rose - Delaware
+111 155 1 Rua Steensland Nobel - Connecticut
+48 136 5 Rua Clove - Ohio
+135 130 8 Rua Esker 2nd Fisk Anderson Sutteridge - District of Columbia
+160 42 6 Rua Glacier Hill Northwestern - Indiana
+134 167 3 Rua Lawn - New Mexico
+176 84 2 Rua Loftsgordon Pearson - Tennessee
+105 161 7 Rua Texas Coolidge - Michigan
+65 23 2 Rua Emmet - Michigan
+37 5 9 Rua Oneill - California
+169 5 4 Rua Lyons Coleman - Oklahoma
+21 42 5 Rua Oxford - Illinois
+46 195 7 Rua Boyd - Wisconsin
+97 138 2 Rua Fuller - New Mexico
+78 100 4 Rua Judy - Massachusetts
+91 87 2 Rua Mallory Namekagon Utah Steensland - New Mexico
+163 29 3 Rua Porter Kings Kenwood Scoville - New Mexico
+189 24 9 Rua Fisk Green - Georgia
+28 174 6 Rua Saint Paul International Waxwing Barnett Express Forest Dale - Arizona
+184 137 4 Rua Kennedy - Georgia
+72 90 9 Rua Judy Butternut Kropf Monterey Di Loreto Little Fleur Stoughton Fieldstone - Tennessee
+159 124 10 Rua Oxford Becker - District of Columbia
+118 117 10 Rua Dwight Pierstorff Summerview - Delaware
+183 10 4 Rua Manitowish Utah - Georgia
+51 193 10 Rua Acker Fulton 1st - Michigan
+22 103 4 Rua Russell Pond - Indiana
+46 165 6 Rua Marcy Lighthouse Bay Moland - Virginia
+108 14 9 Rua Graceland - West Virginia
+122 135 1 Rua Esker Cascade Warbler - California
+21 57 2 Rua Lake View - Virginia
+193 29 4 Rua Melody Cordelia - Connecticut
+15 46 8 Rua Sage Parkside Gateway - Connecticut
+78 173 4 Rua Moose - Michigan
+122 107 9 Rua Dixon Hintze - Michigan
+56 129 5 Rua Lighthouse Bay Pine View Moulton - New Mexico
+105 98 3 Rua Oxford Texas - Massachusetts
+134 109 10 Rua Hooker Sage - New Mexico
+154 171 7 Rua Delaware - Tennessee
+2 197 9 Rua Glacier Hill Springs - Florida
+60 197 10 Rua Grasskamp Farmco International Atwood - Arizona
+24 64 4 Rua Bunting - Nevada
+132 194 6 Rua Dahle - Utah
+59 90 9 Rua Little Fleur Ruskin - Oklahoma
+45 91 2 Rua Loeprich - Pennsylvania
+59 26 6 Rua Nevada - Maryland
+114 133 2 Rua Northwestern Tomscot Shelley Glacier Hill Merry - Tennessee
+18 8 9 Rua Judy Green Division - Ohio
+183 40 8 Rua Grover Bunker Hill Twin Pines Melby Everett - Georgia
+142 170 7 Rua Bluestem Crownhardt - North Carolina
+128 159 6 Rua Hoepker - North Carolina
+15 14 7 Rua Bowman Esch Meadow Vale - Maryland
+172 89 5 Rua Eastwood - Texas
+179 199 8 Rua Hoard - Georgia
+200 71 5 Rua Kropf - Maryland
+135 57 7 Rua Forster - New Mexico
+72 86 10 Rua Lyons - Georgia
+103 186 4 Rua Aberg - Texas
+42 99 2 Rua Arkansas Shopko Memorial Monterey - New Mexico
+122 69 10 Rua Dunning Cascade Morrow - Florida
+165 16 2 Rua Sloan 8th - Pennsylvania
+113 89 1 Rua Banding - North Carolina
+131 13 6 Rua Arkansas Muir - Massachusetts
+70 10 2 Rua Graceland Shasta Del Sol Washington - Illinois
+62 197 1 Rua Carberry Oxford Derek Canary - Connecticut
+134 83 9 Rua Onsgard - Illinois
+30 34 7 Rua Johnson Grover - New York
+121 37 9 Rua Ronald Regan - California
+35 101 10 Rua Carey Truax Golden Leaf - Florida
+106 142 5 Rua Loomis Rigney - Illinois
+126 175 8 Rua Golden Leaf Mockingbird Maryland - District of Columbia
+92 182 6 Rua Erie - Pennsylvania
+5 32 4 Rua Wayridge - Arizona
+189 128 4 Rua Pankratz Surrey John Wall - Michigan
+24 117 7 Rua Caliangt Scott Springview Buell - Michigan
+55 149 7 Rua Rieder Little Fleur - Michigan
+200 10 10 Rua Brickson Park - Texas
+78 46 4 Rua Anzinger Hooker - West Virginia
+116 29 4 Rua Gateway Eliot - Indiana
+20 156 7 Rua Oxford Gateway - Georgia
+88 73 8 Rua Sauthoff Trailsway - Utah
+33 90 9 Rua Golden Leaf - Michigan
+86 17 8 Rua Debra - Wisconsin
+62 16 9 Rua Pine View Bowman - Georgia
+197 90 9 Rua Esker - Delaware
+148 150 9 Rua Maywood Little Fleur Green Ridge - Connecticut
+19 172 7 Rua John Wall - Wisconsin
+79 15 9 Rua Red Cloud Alpine Muir - Virginia
+185 131 1 Rua Maryland Blue Bill Park Shasta Forest Run - North Carolina
+172 161 1 Rua Eliot - New Mexico
+101 37 1 Rua Eagan Eastwood Golf Course - Tennessee
+163 159 4 Rua Kropf Kedzie - Nevada
+118 116 1 Rua Nancy Dwight Packers - Utah
+6 183 10 Rua Harper Fieldstone Bultman Redwing Messerschmidt Dwight - Illinois
+25 69 9 Rua Cardinal Fremont East - Indiana
+17 84 10 Rua Vahlen - Massachusetts
+138 81 8 Rua Bluestem Hoffman - Connecticut
+12 117 10 Rua Hoffman - Indiana
+46 140 6 Rua Victoria Anzinger Lakewood Butterfield Fair Oaks - Massachusetts
+186 144 1 Rua Scoville La Follette Little Fleur - Wisconsin
+99 104 6 Rua Grasskamp - Florida
+31 35 10 Rua Schmedeman Garrison - Ohio
+76 97 3 Rua Anzinger Mallard Kings Annamark Sherman Utah Graceland Acker - Indiana
+45 84 8 Rua Scoville Carey Memorial Scofield - Indiana
+23 12 6 Rua Grayhawk Debs Sachs Holy Cross - Massachusetts
+51 76 1 Rua Trailsway - Georgia
+5 188 7 Rua Emmet Calypso Northwestern Maple Little Fleur Garrison Oak Valley - Maryland
+94 128 5 Rua Gateway Everett Porter - Oklahoma
+32 96 3 Rua Twin Pines East Grasskamp - Maryland
+93 68 6 Rua Ilene - Maryland
+113 139 8 Rua Knutson - Georgia
+200 96 8 Rua Westport John Wall - Arizona
+158 161 8 Rua Union Knutson Granby Onsgard - Wisconsin
+28 173 4 Rua Hanson Lakewood - North Carolina
+17 65 2 Rua Melvin - Ohio
+123 176 4 Rua Kenwood Lien Redwing Anthes Summit Sloan Manley - Georgia
+146 30 7 Rua Swallow - Florida
+46 107 10 Rua Boyd Melrose Norway Maple - Illinois
+182 174 6 Rua Dunning Melby - California
+55 88 10 Rua Center Petterle Grasskamp - West Virginia
+163 34 5 Rua Acker Ridgeway - North Carolina
+150 186 3 Rua Trailsway Rigney - Delaware
+189 34 7 Rua Texas Magdeline - Indiana
+66 95 1 Rua Hintze - Maryland
+62 159 7 Rua Iowa South Old Gate Cottonwood - Florida
+54 190 4 Rua Reindahl - New Mexico
+187 122 3 Rua Bartelt Eagle Crest Meadow Vale Magdeline Anniversary - Ohio
+115 14 5 Rua Mosinee Dunning - New Mexico
+82 24 9 Rua Onsgard Dakota - New York
+133 190 10 Rua Texas Bayside - Georgia
+120 168 1 Rua Logan Farwell Bultman - New Mexico
+70 160 3 Rua Springview - Oklahoma
+99 64 10 Rua Sachs Mandrake Red Cloud - Illinois
+131 14 2 Rua Hansons - New York
+98 152 6 Rua Shopko Twin Pines Hoffman - California
+182 170 1 Rua Eliot Shopko Mayer - Pennsylvania
+39 169 1 Rua Pine View - North Carolina
+125 20 7 Rua Harbort Dayton - New Mexico
+197 84 4 Rua Dryden Artisan Lakeland Butterfield - Ohio
+166 16 7 Rua Evergreen Mitchell - District of Columbia
+113 65 7 Rua Kings - California
+193 2 4 Rua North 7th Birchwood Karstens - Wisconsin
+93 67 7 Rua Melody Hallows Prentice - Maryland
+112 98 9 Rua Hagan - Virginia
+11 92 5 Rua Huxley - Michigan
+69 63 4 Rua Clove Westridge Victoria - Massachusetts
+5 66 1 Rua Packers - Texas
+55 12 5 Rua Tomscot - Utah
+107 111 7 Rua Utah Vermont Little Fleur Eliot - Nevada
+164 115 1 Rua Stang - Illinois
+71 125 9 Rua Coleman Dorton - Virginia
+42 133 4 Rua Drewry Lukken - Nevada
+151 118 10 Rua Dayton - District of Columbia
+150 142 10 Rua Scott - Ohio
+180 17 7 Rua Manufacturers - Virginia
+126 67 3 Rua Redwing Esker Hooker Scoville - Utah
+198 82 10 Rua Cottonwood - Delaware
+141 144 4 Rua Kenwood - Michigan
+153 186 9 Rua Briar Crest - Florida
+62 199 2 Rua Welch - California
+30 189 1 Rua Spaight - Oklahoma
+99 62 7 Rua Union - Texas
+189 27 7 Rua 6th - New Mexico
+165 112 9 Rua Judy Veith Hagan - Georgia
+80 2 6 Rua Oxford Fallview - Illinois
+43 137 1 Rua Shelley Kedzie - Ohio
+173 193 7 Rua Arrowood Grayhawk - Texas
+43 96 8 Rua Schlimgen - Georgia
+64 174 1 Rua Northwestern - North Carolina
+79 113 9 Rua Bultman Atwood - Utah
+105 30 3 Rua Chinook - Virginia
+76 167 4 Rua Lakeland Prairie Rose Hoffman Sage 2nd - Georgia
+35 111 3 Rua Lindbergh - Arizona
+100 185 5 Rua Rieder - Nevada
+140 174 7 Rua Goodland - Georgia
+169 79 10 Rua Bultman Elgar Carey - Arizona
+48 30 1 Rua Sage - California
+131 171 5 Rua David - Indiana
+54 106 6 Rua Bluestem - Arizona
+29 118 10 Rua Magdeline - California
+58 114 5 Rua Declaration 5th Thompson - Illinois
+66 82 4 Rua Warbler - Oklahoma
+93 152 7 Rua Hanson Eagle Crest - Virginia
+52 152 3 Rua Packers Gateway - New Mexico
+151 95 10 Rua Dwight Sage - Illinois
+122 170 1 Rua Mockingbird - Maryland
+1 176 5 Rua Hoard Forest Run - New York
+76 100 7 Rua Lighthouse Bay Mifflin - Utah
+56 149 5 Rua Hazelcrest - Utah
+52 4 1 Rua Acker Manufacturers Sachtjen - West Virginia
+53 78 5 Rua Eliot Lake View Pond - Nevada
+5 112 4 Rua Rowland - Connecticut
+193 199 1 Rua Pepper Wood - Michigan
+124 108 8 Rua Ruskin - Illinois
+41 5 5 Rua Badeau Mosinee Caliangt - North Carolina
+151 135 10 Rua Pierstorff Butternut - North Carolina
+177 168 7 Rua Forest Dale Shopko 6th Melody - Pennsylvania
+108 142 6 Rua Autumn Leaf Texas Roxbury Dexter Evergreen - Pennsylvania
+166 52 7 Rua Dryden - Georgia
+5 22 4 Rua Clemons - West Virginia
+172 97 7 Rua Mcbride Spohn Linden Esker - Tennessee
+197 24 1 Rua Namekagon Lindbergh Grasskamp Susan Maple - Indiana
+47 190 2 Rua Sauthoff - District of Columbia
+7 13 2 Rua Division Hoffman - Pennsylvania
+64 4 7 Rua Sutteridge Mcguire Banding Dayton Norway Maple - Texas
+128 175 10 Rua Dakota Tony - California
+30 83 7 Rua Warner Hintze Pawling Arizona Center - Oklahoma
+36 49 10 Rua Rusk - New Mexico
+179 60 6 Rua Scoville Carey Namekagon - Tennessee
+143 164 9 Rua Del Sol - District of Columbia
+121 156 5 Rua Brickson Park Pepper Wood Granby - Illinois
+155 9 8 Rua Manley Thierer - Arizona
+57 152 1 Rua Brown - Florida
+83 61 10 Rua Schmedeman Annamark Sunbrook Eagan Dorton Victoria Rusk - California
+68 186 10 Rua Erie Garrison - Indiana
+88 166 9 Rua Rusk Northfield - Pennsylvania
+20 186 4 Rua Clarendon - Maryland
+25 85 7 Rua Mendota Grayhawk Southridge Fallview - Maryland
+142 173 3 Rua Oak Village Pepper Wood - Maryland
+149 45 7 Rua Lien Utah - Ohio
+200 55 5 Rua Morningstar Havey - Massachusetts
+179 175 5 Rua Esch Northwestern - Illinois
+32 9 7 Rua Bultman Dottie - West Virginia
+151 56 7 Rua Sunnyside - New York
+77 118 7 Rua Ohio - Florida
+130 145 9 Rua International - Arizona
+94 142 4 Rua Monterey Maywood - California
+80 141 7 Rua Pine View Pepper Wood Brickson Park - Connecticut
+34 167 8 Rua Meadow Ridge Autumn Leaf - District of Columbia
+157 196 7 Rua Lunder Thompson - Ohio
+58 144 3 Rua Melody Melrose Autumn Leaf Gateway - Texas
+146 135 3 Rua Rigney Farwell - New York
+25 97 3 Rua School - Maryland
+187 150 1 Rua Bluestem Fallview Lawn Express Oneill - Connecticut
+117 71 6 Rua Lukken - Massachusetts
+21 112 2 Rua Everett Clemons - District of Columbia
+161 28 9 Rua Twin Pines Kings - District of Columbia
+95 156 10 Rua Cascade - Connecticut
+98 97 2 Rua Roth Evergreen - Ohio
+169 200 10 Rua Norway Maple - North Carolina
+157 169 5 Rua Mayfield Lillian - New Mexico
+123 65 4 Rua Everett Thierer Darwin Birchwood Burrows Twin Pines Washington - West Virginia
+44 40 8 Rua Karstens - Florida
+64 20 1 Rua Farmco - Georgia
+197 124 5 Rua Karstens Knutson - West Virginia
+99 162 3 Rua Hagan Hanson Mandrake - District of Columbia
+73 56 9 Rua Victoria Holmberg Utah - Connecticut
+138 71 7 Rua Alpine Welch Division - Wisconsin
+29 39 7 Rua Crescent Oaks - Tennessee
+35 104 5 Rua Canary - Tennessee
+188 137 7 Rua Anzinger Mitchell Nelson Melody - Florida
+42 7 8 Rua Lien Eggendart - Oklahoma
+176 186 9 Rua Grover Banding - New Mexico
+136 157 5 Rua Harper Dexter - Wisconsin
+70 90 7 Rua Loftsgordon - North Carolina
+119 114 9 Rua Fallview - Georgia
+30 3 4 Rua Lighthouse Bay Veith Grasskamp - New York
+8 136 10 Rua Michigan - Florida
+121 90 3 Rua Shasta - West Virginia
+61 177 5 Rua Derek Lakeland Sage - Michigan
+61 31 8 Rua Esker Knutson Florence - Oklahoma
+124 128 3 Rua David Lakewood Bluestem Ohio - Georgia
+3 100 9 Rua Buell - Arizona
+57 89 5 Rua Roxbury - North Carolina
+21 152 1 Rua Maria Holy Cross - Ohio
+32 118 5 Rua Manley - Oklahoma
+57 194 3 Rua Green - Nevada
+4 45 1 Rua Sutherland - Oklahoma
+67 144 7 Rua Fairfield - Ohio
+173 40 10 Rua Mandrake Mayer - Virginia
+100 118 10 Rua Bowman Dennis Melrose - Texas
+113 73 7 Rua Jenifer - Oklahoma
+41 131 4 Rua Carey - New York
+121 35 4 Rua Dennis - Connecticut
+170 120 6 Rua Elmside Johnson - Connecticut
+34 102 2 Rua Sugar Fieldstone Hollow Ridge - Indiana
+175 57 9 Rua Lakeland Dunning Rieder - New Mexico
+178 31 4 Rua Lawn East Oak Valley - Maryland
+44 68 9 Rua Village Loftsgordon - California
+64 166 8 Rua Sutteridge Grayhawk Judy - Texas
+125 65 2 Rua Southridge Emmet - North Carolina
+73 110 2 Rua Di Loreto Eagan Reindahl Lawn Lake View 2nd - Utah
+49 134 8 Rua Merrick Tomscot - West Virginia
+46 127 9 Rua Red Cloud - Georgia
+180 70 5 Rua Mallory - Texas
+119 197 1 Rua Manitowish Lawn - Arizona
+165 13 10 Rua Golf Course - Delaware
+151 5 3 Rua Trailsway Thierer Bartelt Maria - Illinois
+172 102 4 Rua Fairview Meadow Ridge Harbort Green Ridge - New Mexico
+128 96 4 Rua Gateway - District of Columbia
+16 120 10 Rua Victoria Namekagon Monterey Columbus Eagan - Connecticut
+1 196 7 Rua Rigney 6th - Wisconsin
+122 126 7 Rua Fulton - District of Columbia
+34 117 5 Rua Reindahl Clarendon Dakota International - Michigan
+127 67 3 Rua Nevada Bultman Holy Cross Pepper Wood Cherokee Trailsway Autumn Leaf - Florida
+65 31 6 Rua Lyons Magdeline - West Virginia
+138 45 6 Rua Mcguire Erie - Pennsylvania
+177 63 2 Rua Granby - Maryland
+175 169 6 Rua Saint Paul Namekagon - Arizona
+53 37 8 Rua Lakewood Dakota Birchwood Canary Larry - Ohio
+172 188 5 Rua La Follette - Delaware
+119 51 4 Rua Kim Moose - West Virginia
+100 37 9 Rua Gateway Cardinal - Michigan
+178 152 8 Rua Artisan - Ohio
+191 187 6 Rua Lighthouse Bay Old Gate Utah Pierstorff Russell Eagle Crest Saint Paul Lillian - Michigan
+39 106 10 Rua Coolidge Pawling Bultman - Indiana
+104 134 10 Rua Elgar - North Carolina
+179 140 10 Rua Mcbride Elka Susan Bartelt - Connecticut
+149 88 3 Rua Mayfield - Virginia
+55 155 8 Rua Dayton Hooker Knutson - North Carolina
+25 103 7 Rua Coolidge - District of Columbia
+64 108 9 Rua Straubel Harper Bowman - Tennessee
+81 54 2 Rua Buell Old Shore - North Carolina
+98 134 9 Rua Dunning - Florida
+10 71 6 Rua Gerald - Arizona
+72 122 10 Rua Victoria - Massachusetts
+16 20 1 Rua Grasskamp Thompson Magdeline Montana Mosinee Eagan - Maryland
+21 173 7 Rua Bartelt Delladonna Blue Bill Park - Connecticut
+110 190 1 Rua Esch Mesta Florence - Illinois
+143 23 1 Rua Muir Hoffman Surrey - Pennsylvania
+162 34 2 Rua Green Ridge Petterle Golf Dakota Hooker - Massachusetts
+106 94 9 Rua Pankratz Pierstorff - Georgia
+146 176 4 Rua Almo Northwestern Grover Northfield - Delaware
+112 109 3 Rua Glendale Hooker - Indiana
+153 196 8 Rua Darwin Pennsylvania - Nevada
+25 32 3 Rua Kings Gale 7th - Maryland
+23 75 5 Rua Elka Del Sol - Oklahoma
+124 34 6 Rua Carioca Old Gate Pierstorff - Oklahoma
+132 21 2 Rua Corry - Maryland
+80 122 5 Rua Lillian 1st - Pennsylvania
+101 139 7 Rua Forest - Delaware
+101 160 2 Rua Westport - Delaware
+123 155 8 Rua La Follette Steensland Sauthoff - New Mexico
+148 47 5 Rua Fuller Raven Surrey Beilfuss - California
+43 16 9 Rua Ridgeway Lakeland - Indiana
+4 62 4 Rua Acker Atwood - Ohio
+82 17 8 Rua Northfield Clemons - New Mexico
+189 154 9 Rua Trailsway Butternut - Illinois
+115 9 8 Rua Evergreen - Utah
+54 184 1 Rua Florence - Massachusetts
+188 59 4 Rua Starling - Texas
+129 16 7 Rua Old Shore Mosinee Vermont Autumn Leaf Hoepker Oakridge - Maryland
+14 20 5 Rua Carey Pine View Banding Lakeland Dorton Melody - Oklahoma
+103 54 3 Rua Badeau - Utah
+11 164 4 Rua Carey Nelson - Maryland
+184 123 1 Rua Morning Saint Paul - Tennessee
+1 191 9 Rua Hoffman Mosinee - Pennsylvania
+155 179 8 Rua Bartelt Corben Ruskin Canary - Arizona
+118 1 7 Rua Old Gate - Delaware
+58 67 7 Rua Bluestem Ridgeway - Tennessee
+188 15 9 Rua Rusk Iowa - Georgia
+87 60 3 Rua West - Michigan
+44 106 2 Rua Oakridge Evergreen Buell - Indiana
+31 106 3 Rua Melby - Illinois
+140 134 2 Rua Grim - New Mexico
+30 76 9 Rua Fordem Delaware - Oklahoma
+100 101 2 Rua Eagan Acker - Massachusetts
+23 91 6 Rua Upham Gulseth Sunnyside Acker Rockefeller Bowman - Wisconsin
+96 4 10 Rua Hanson Hoffman - Pennsylvania
+74 189 6 Rua Moose Dixon Trailsway - District of Columbia
+1 179 10 Rua Amoth Little Fleur - Delaware
+159 58 3 Rua Esch - Georgia
+91 108 8 Rua Maryland Pond - North Carolina
+64 133 7 Rua Towne Darwin - Delaware
+24 19 2 Rua Thierer - District of Columbia
+197 73 9 Rua Ridgeview Mallory - District of Columbia
+25 45 8 Rua Melody Russell - Florida
+104 44 5 Rua Hintze Fordem - Maryland
+134 50 10 Rua Sutteridge - Florida
+144 92 5 Rua Lien Coolidge - Nevada
+62 172 7 Rua Grasskamp Twin Pines - Pennsylvania
+178 100 8 Rua Forest Dale - West Virginia
+6 35 1 Rua Summit Saint Paul - Pennsylvania
+79 41 1 Rua Harbort - Florida
+187 24 3 Rua Karstens Blackbird - West Virginia
+76 22 6 Rua Anzinger - California
+140 20 4 Rua Mendota Ilene - Florida
+57 127 1 Rua Carey Trailsway Jenifer Mcbride Commercial Roxbury - West Virginia
+83 29 10 Rua Ridgeway - Nevada
+112 125 10 Rua Drewry Bay Holmberg Alpine - Utah
+85 90 7 Rua Shopko Fair Oaks Lyons - Massachusetts
+155 48 2 Rua Schmedeman Westport - Florida
+55 106 4 Rua Lakeland Veith - Pennsylvania
+20 88 1 Rua Lunder - Georgia
+160 54 8 Rua Garrison Kedzie Oakridge Nevada - District of Columbia
+131 149 1 Rua Elka - Illinois
+21 49 4 Rua Meadow Valley - Florida
+156 107 10 Rua Truax - Utah
+28 8 7 Rua Tony Cambridge Lakewood Gardens - District of Columbia
+163 82 4 Rua Buhler - Ohio
+162 20 4 Rua Porter Carberry - Wisconsin
+195 77 7 Rua Warner Drewry Scoville - Maryland
+187 172 4 Rua Novick Alpine - Florida
+169 71 2 Rua Rigney Burning Wood - Texas
+12 122 1 Rua Mccormick Lerdahl - Ohio
+79 140 2 Rua 1st Schmedeman Colorado - New York
+146 155 1 Rua Arrowood Crownhardt Hooker Veith Green Ridge Donald 8th - Pennsylvania
+128 100 10 Rua Morningstar Mallory - California
+176 175 1 Rua Katie Schurz Monterey Johnson Lyons - Nevada
+111 3 4 Rua Fair Oaks Manitowish - Maryland
+30 165 8 Rua Mccormick - California
+119 151 7 Rua Sunfield - California
+63 189 10 Rua Steensland Karstens Old Gate - Michigan
+189 99 9 Rua Swallow Kings - Texas
+109 12 5 Rua High Crossing Bonner Old Gate Warner Packers Drewry - Tennessee
+18 103 1 Rua Stang Kenwood Cascade 1st Arkansas - Delaware
+140 127 1 Rua Coolidge Shasta - Wisconsin
+174 166 1 Rua Holy Cross Anzinger - Tennessee
+67 200 9 Rua Caliangt - Wisconsin
+43 4 6 Rua Garrison Southridge Monterey Vermont - North Carolina
+31 138 4 Rua Service Glacier Hill - Texas
+22 102 4 Rua Holmberg - New Mexico
+26 35 8 Rua Anzinger Memorial - Tennessee
+91 199 1 Rua Surrey - Delaware
+104 100 1 Rua Transport Fieldstone - Michigan
+184 88 10 Rua Graceland Charing Cross Northland - Wisconsin
+79 55 1 Rua Glacier Hill - New Mexico
+66 39 5 Rua Graedel Packers - Connecticut
+193 129 4 Rua North - Pennsylvania
+114 153 4 Rua Heath Lien Sauthoff Texas Schlimgen - Pennsylvania
+41 191 4 Rua Lakewood Gardens Schurz - Maryland
+73 147 1 Rua Butternut Bowman - Pennsylvania
+5 126 5 Rua Scoville Mosinee Emmet Loomis Hoffman - District of Columbia
+17 49 10 Rua Iowa Anzinger - New York
+131 174 4 Rua Nancy Butternut - California
+186 1 8 Rua Delladonna Stoughton - Michigan
+114 157 9 Rua Arrowood - North Carolina
+166 68 10 Rua Pierstorff - District of Columbia
+101 34 8 Rua Brickson Park Victoria - Indiana
+143 150 10 Rua Thompson - Arizona
+147 108 1 Rua Reindahl Truax Maria - Virginia
+101 127 7 Rua Dahle Green Ridge Grasskamp - North Carolina
+13 173 1 Rua Green Ridge Union Buena Vista Packers Shasta Corry - Ohio
+177 169 4 Rua Alpine Texas - Indiana
+98 92 9 Rua Meadow Vale - California
+75 39 6 Rua Bluestem Melrose Manufacturers - Maryland
+165 118 4 Rua Helena Golf Comanche - Maryland
+158 110 7 Rua Mccormick Fisk 2nd Norway Maple Spohn Mallory Monica - Florida
+80 177 10 Rua Dennis Monica School John Wall - Connecticut
+117 22 1 Rua Loomis Crest Line - Florida
+55 85 9 Rua Waxwing Birchwood Gateway - Pennsylvania
+139 118 7 Rua Michigan Roxbury - Virginia
+6 96 7 Rua Cordelia - Utah
+164 29 9 Rua Caliangt Derek Lakewood Gardens La Follette - Nevada
+19 81 4 Rua Manitowish Pankratz Division Del Sol - Pennsylvania
+65 126 10 Rua Sachs Superior - Arizona
+195 64 5 Rua Almo School - Florida
+101 199 4 Rua Melody Farmco - Maryland
+75 132 1 Rua Golf Course Stang Nelson - Utah
+172 43 9 Rua Oak Valley Jenifer Lukken Sherman - Utah
+55 82 9 Rua Carberry Vermont - North Carolina
+192 7 7 Rua Di Loreto Fallview Holy Cross - Texas
+142 17 6 Rua Johnson Harbort Center Oakridge Arkansas Calypso Barnett - Maryland
+25 57 3 Rua Kensington Clove - Oklahoma
+3 163 5 Rua Manitowish - Massachusetts
+88 128 1 Rua Petterle Bluestem - California
+185 153 6 Rua Barby - Indiana
+58 134 7 Rua Dixon - Utah
+33 47 3 Rua Macpherson - Michigan
+114 66 8 Rua Holy Cross - Michigan
+110 117 3 Rua Becker Pearson Hoffman - Virginia
+95 62 2 Rua Bayside Birchwood - New York
+102 99 3 Rua Forest Vahlen Lillian Oxford - Maryland
+31 100 8 Rua Dexter - Illinois
+158 10 2 Rua Park Meadow - Georgia
+145 45 2 Rua Mcbride Scoville Iowa - California
+180 200 6 Rua Grasskamp Almo Caliangt Nobel Butterfield Manufacturers - Tennessee
+135 49 2 Rua Ridgeway Victoria - Pennsylvania
+109 200 8 Rua Lien - Arizona
+99 151 3 Rua Di Loreto Onsgard Victoria Arkansas - Virginia
+144 177 1 Rua 6th Walton Tennessee Utah - Florida
+118 27 4 Rua Melrose - Tennessee
+12 59 3 Rua Everett - Illinois
+9 84 9 Rua Northport Dwight Packers Bluestem - New York
+144 2 9 Rua Rusk International Buhler Melrose - Connecticut
+192 183 2 Rua Bartelt - North Carolina
+157 33 6 Rua Sunnyside Eagle Crest Loomis Old Shore - District of Columbia
+31 179 6 Rua Loomis - Massachusetts
+109 63 1 Rua Bayside Service - California
+74 37 9 Rua East Nelson - Nevada
+77 159 7 Rua Sachtjen Pierstorff Lighthouse Bay Fulton - Tennessee
+187 19 7 Rua Forest Run - Ohio
+34 27 9 Rua Dorton - Indiana
+149 37 3 Rua Trailsway Gerald - Indiana
+62 88 9 Rua Merrick - Tennessee
+81 103 10 Rua American Huxley Melby Dwight - Indiana
+184 77 8 Rua Dorton Stoughton - Pennsylvania
+152 29 4 Rua Everett Loomis - Wisconsin
+105 40 7 Rua Fremont Center - Utah
+124 104 5 Rua Goodland Redwing Little Fleur Eagle Crest Green Ridge Cordelia - Florida
+177 27 7 Rua Rigney Iowa - California
+166 75 10 Rua Hanson Crescent Oaks Ilene Glendale Claremont - Indiana
+117 163 8 Rua Loomis Truax Fremont Bowman Dwight Autumn Leaf Farmco Eliot - Michigan
+174 71 1 Rua Thierer Buhler - Maryland
+156 4 2 Rua High Crossing - Utah
+26 168 10 Rua Grover Johnson Onsgard Toban Green Clemons Canary - Massachusetts
+137 93 4 Rua Dakota Oxford Maywood East - Indiana
+9 157 1 Rua Everett Mcbride - Nevada
+25 107 3 Rua Morrow - Ohio
+81 16 5 Rua Maywood Fair Oaks Petterle - Texas
+66 185 1 Rua Cascade Utah - Delaware
+69 157 1 Rua Rusk School - Pennsylvania
+67 94 6 Rua Packers Pearson - North Carolina
+14 135 7 Rua Drewry Old Shore - Wisconsin
+74 3 3 Rua Oneill Vahlen Comanche - Virginia
+140 33 1 Rua Delaware Monterey Browning Vahlen - Connecticut
+194 42 9 Rua Barby Russell - Tennessee
+43 112 6 Rua Luster - Nevada
+5 6 9 Rua Clove Butternut - Nevada
+41 35 8 Rua Fieldstone Clove Nancy Carioca Magdeline - Nevada
+169 170 1 Rua Calypso - Ohio
+196 147 7 Rua Karstens Village Esker 7th Truax - Delaware
+188 75 10 Rua Crescent Oaks Kennedy - Texas
+77 20 9 Rua Prentice Red Cloud - West Virginia
+175 104 10 Rua Butternut Calypso - Nevada
+49 130 7 Rua Melody Westridge - Ohio
+165 45 3 Rua Bowman Burrows Pond - New Mexico
+25 136 8 Rua Debs - Texas
+101 85 9 Rua Farwell - Virginia
+16 154 2 Rua Lindbergh Scofield Division Scoville Twin Pines - New York
+139 172 5 Rua Mcbride - Arizona
+116 89 8 Rua Fairview - Oklahoma
+142 126 4 Rua Pleasure Schlimgen - Texas
+161 119 10 Rua Gerald Rieder Meadow Valley Nobel - Nevada
+70 57 8 Rua Melrose Mosinee - California
+193 137 5 Rua Petterle - Georgia
+89 93 3 Rua East Bayside - Massachusetts
+56 160 5 Rua Starling East Thierer Kensington - Nevada
+183 170 10 Rua Grover Northland Lotheville - Michigan
+15 19 10 Rua Dawn Quincy Northland - Nevada
+111 76 4 Rua Moose Esch Little Fleur Dorton - West Virginia
+130 46 10 Rua Memorial - Oklahoma
+67 23 9 Rua Independence - Virginia
+174 38 3 Rua Goodland Green Packers - Massachusetts
+83 199 1 Rua Dwight Kensington - Illinois
+143 142 2 Rua Buhler Westport - Virginia
+35 167 7 Rua Lindbergh Calypso - Tennessee
+98 13 7 Rua Butternut Harper Eagle Crest - Pennsylvania
+46 142 6 Rua Mockingbird Esker - Florida
+183 72 3 Rua Lillian Esch Cardinal Farmco - Delaware
+13 19 4 Rua Corben Grasskamp Schmedeman - Utah
+119 107 2 Rua Autumn Leaf Bluejay - North Carolina
+45 67 3 Rua Autumn Leaf - Connecticut
+96 192 3 Rua Blue Bill Park - Massachusetts
+39 161 4 Rua Hansons Susan - Ohio
+150 72 2 Rua Sunnyside Scott Manley Ohio Hagan - West Virginia
+19 108 2 Rua Maryland Elgar - Ohio
+23 18 8 Rua Larry Anzinger Grim - Maryland
+109 103 10 Rua Mcbride Meadow Vale Towne - Indiana
+196 82 10 Rua Steensland - Florida
+98 73 10 Rua Cherokee Florence Northland Grayhawk Fisk Steensland - Arizona
+185 78 6 Rua Manitowish Center Pierstorff - District of Columbia
+42 1 1 Rua Holy Cross Boyd 2nd Elmside - Massachusetts
+105 165 4 Rua Dwight Thierer Dunning Buhler - District of Columbia
+74 128 10 Rua Melody Main Welch - Oklahoma
+44 55 8 Rua Northland Ludington - Virginia
+83 150 5 Rua Daystar Hansons - California
+70 26 6 Rua Judy Mockingbird - Ohio
+46 33 9 Rua Acker Brickson Park Forest Dale - Ohio
+106 158 6 Rua Sachs Green Ridge - Tennessee
+48 135 3 Rua Corry Towne Meadow Ridge - Utah
+188 90 2 Rua Northwestern Lighthouse Bay - California
+28 157 7 Rua Arizona Ruskin Esker Arizona Pennsylvania Cherokee Hanson - New Mexico
+72 44 4 Rua Del Mar - District of Columbia
+162 106 8 Rua Russell Anderson Fair Oaks Nevada - Massachusetts
+68 85 9 Rua Oak Valley Jenifer Brickson Park Thompson Schiller Buell - Pennsylvania
+50 2 10 Rua Kings Sycamore Bartillon Declaration - Arizona
+130 157 6 Rua Petterle Rusk Oxford - Massachusetts
+82 56 6 Rua Sunbrook - Arizona
+1 181 5 Rua Barnett - Connecticut
+21 153 3 Rua Cherokee Sutherland Mitchell - Tennessee
+149 73 9 Rua Crest Line - Oklahoma
+136 37 4 Rua Onsgard Goodland Ilene - Oklahoma
+34 132 9 Rua Gateway Kropf - Texas
+28 77 9 Rua Banding Saint Paul Cordelia - District of Columbia
+177 164 3 Rua Burrows - Utah
+190 96 5 Rua Sherman - Nevada
+18 19 7 Rua Truax Melrose Kedzie - California
+114 187 1 Rua Bluestem Dayton - Florida
+64 115 5 Rua Green Harper - Florida
+78 63 1 Rua Ruskin Warner Monterey Grayhawk Stoughton Sage - Michigan
+158 20 9 Rua Dwight Harper - Maryland
+95 53 6 Rua Scoville Forest Dale - Virginia
+63 158 5 Rua John Wall Debs Hazelcrest - Maryland
+82 51 9 Rua Westridge Utah - Ohio
+124 55 4 Rua Dryden Schurz - Tennessee
+101 129 10 Rua Bartillon - Florida
+23 16 7 Rua Kensington - Texas
+114 13 7 Rua Mallory Beilfuss International - Oklahoma
+174 91 6 Rua Kedzie - Virginia
+91 100 1 Rua Dawn - Florida
+181 13 8 Rua Morning - Maryland
+58 157 9 Rua Moland - Nevada
+30 58 7 Rua Sachtjen Swallow - Arizona
+14 176 10 Rua Daystar - Utah
+147 33 3 Rua Erie Onsgard Mallard - Maryland
+140 1 9 Rua Eagan Hooker - Maryland
+184 110 9 Rua Porter - Ohio
+11 163 10 Rua Basil Mosinee - Ohio
+146 119 10 Rua Grover - Arizona
+25 194 4 Rua American Ash - Michigan
+36 62 10 Rua Anthes Monterey Springview Tennyson Anniversary - Arizona
+120 44 3 Rua Alpine Scofield Bultman - Georgia
+189 122 5 Rua Waubesa - Virginia
+5 166 9 Rua Esker Huxley Division Meadow Valley - Indiana
+58 199 8 Rua Old Shore - Connecticut
+30 45 6 Rua Mitchell Fairview - Pennsylvania
+35 106 8 Rua Truax Gulseth Dryden Huxley 8th Hintze Alpine High Crossing - New Mexico
+51 6 4 Rua Bluestem Harbort - Arizona
+26 49 1 Rua Manitowish Green Ridge - Michigan
+13 31 10 Rua Hansons Sutteridge - Connecticut
+83 190 8 Rua Karstens Golden Leaf - North Carolina
+9 10 3 Rua Mcguire Eagan Melrose Brown Bonner - Virginia
+83 67 4 Rua Sycamore Pierstorff Truax Sunbrook Macpherson Washington Forest Dale - Virginia
+139 22 5 Rua Derek Eggendart Muir - Maryland
+22 45 8 Rua Sherman Elgar - Arizona
+103 8 4 Rua Tennyson Goodland Shasta - Maryland
+52 20 2 Rua Karstens Maple - Georgia
+44 42 7 Rua Haas Lakewood Gardens - Florida
+57 108 7 Rua Waxwing Mallory Goodland Iowa - Michigan
+100 45 7 Rua Pleasure Lakeland Oakridge Sage Forest Dale - New Mexico
+112 197 6 Rua Johnson - North Carolina
+14 41 4 Rua Johnson Vahlen Butterfield - Florida
+82 180 10 Rua Parkside - Illinois
+121 155 5 Rua Mendota - Oklahoma
+191 95 5 Rua Dorton Anderson - West Virginia
+137 55 1 Rua Milwaukee Trailsway - Ohio
+95 141 4 Rua Stang Harper Monica Hintze Crescent Oaks Center David Dahle Canary - Florida
+133 56 5 Rua Hansons Carey Di Loreto Little Fleur Logan Crescent Oaks Twin Pines 5th - Florida
+26 139 5 Rua Oak Valley Roth - Virginia
+107 196 7 Rua Brickson Park Jackson Red Cloud Grayhawk Westridge - Massachusetts
+125 55 10 Rua Buhler Lien Twin Pines Rowland Bowman - Oklahoma
+128 156 3 Rua Lien Kings - Florida
+108 126 8 Rua Clove Calypso Rigney - Delaware
+164 175 4 Rua Morning Spenser - Texas
+158 111 8 Rua Scott Linden Esch Barnett - Tennessee
+61 50 8 Rua Veith - Indiana
+48 18 1 Rua Mcguire - New York
+188 173 5 Rua West Crowley Morning - Massachusetts
+79 160 5 Rua Shopko - Oklahoma
+22 162 5 Rua Lotheville Fieldstone - Connecticut
+123 71 10 Rua Scofield - Pennsylvania
+197 183 7 Rua Division Mallory - Oklahoma
+32 174 7 Rua Banding Esch - Pennsylvania
+4 102 1 Rua Grayhawk Packers Esker Anderson - Delaware
+171 34 1 Rua School Crest Line - Tennessee
+151 176 2 Rua Eagan - California
+191 59 5 Rua Garrison Atwood - Georgia
+192 135 2 Rua Maple Acker Packers Packers - Florida
+92 53 1 Rua Comanche Fallview - Maryland
+3 7 6 Rua Mendota Tomscot Hooker - Georgia
+181 28 5 Rua Bowman Chinook Tennessee Service - New York
+29 65 5 Rua Victoria Petterle Corben - Ohio
+6 110 1 Rua Fallview Russell Glendale - Nevada
+6 109 9 Rua Lunder Pepper Wood - Virginia
+181 136 1 Rua Melvin Clove - Virginia
+57 17 3 Rua West Northwestern Almo - North Carolina
+176 153 8 Rua Roxbury Hoffman Melrose Michigan Melody - Indiana
+42 91 8 Rua Commercial Scott - Florida
+41 92 6 Rua Heath Lakewood Nevada - Georgia
+157 56 5 Rua Prentice Florence High Crossing - Utah
+57 187 2 Rua Utah Oriole - Arizona
+82 120 3 Rua Fordem Emmet - North Carolina
+73 70 6 Rua Lawn Barnett Green Ridge Corry Burrows - Tennessee
+177 197 10 Rua Waywood Texas - New York
+190 113 5 Rua Victoria Northland Esch - Maryland
+181 178 5 Rua Northridge - Massachusetts
+176 68 7 Rua Holmberg Nevada - Nevada
+139 121 4 Rua Holmberg Autumn Leaf - North Carolina
+71 5 4 Rua Fremont Lotheville Lien - New Mexico
+112 196 5 Rua Butterfield Ryan - New York
+15 179 1 Rua Trailsway Texas - West Virginia
+183 89 9 Rua Autumn Leaf Huxley - Pennsylvania
+95 133 3 Rua Derek - Nevada
+108 62 6 Rua Namekagon Longview Toban Lake View - Michigan
+122 49 4 Rua Fieldstone Maria Dryden Trailsway - Oklahoma
+54 194 6 Rua Rigney - Ohio
+64 17 8 Rua Gale Golden Leaf - Utah
+18 61 7 Rua Hanson Atwood Monica - Ohio
+154 149 3 Rua Hooker Roxbury Coolidge - North Carolina
+46 187 6 Rua Almo Nova Welch Mosinee - New Mexico
+149 111 4 Rua Sutherland Northland - New Mexico
+52 200 1 Rua Sheridan - Tennessee
+93 104 2 Rua Northfield - Florida
+184 20 6 Rua Monterey Tony Little Fleur - Oklahoma
+83 44 3 Rua Larry - Georgia
+78 140 9 Rua Raven - Florida
+27 90 8 Rua Buhler Fallview - California
+9 164 7 Rua Lawn Truax - Indiana
+118 88 8 Rua Shoshone Graceland Manitowish Waxwing - Ohio
+3 57 8 Rua Arkansas Shasta Scott Saint Paul - Massachusetts
+190 140 8 Rua Vahlen Karstens Dahle Basil - Connecticut
+36 169 2 Rua Hooker Hoffman Lawn - North Carolina
+116 60 2 Rua Everett Comanche - Delaware
+128 78 9 Rua Hovde Darwin Ilene Maple - Illinois
+180 193 8 Rua Graceland Fisk - Georgia
+50 146 1 Rua Sycamore Toban Buell Bayside - Nevada
+132 180 4 Rua Nelson Hovde 8th - Oklahoma
+182 101 3 Rua Bowman Little Fleur John Wall - Georgia
+57 142 7 Rua Forest Dale Saint Paul - New Mexico
+49 138 7 Rua 6th West Lunder - Nevada
+8 82 2 Rua Scoville - Oklahoma
+171 95 7 Rua Havey - Wisconsin
+103 156 6 Rua Pleasure Sheridan Eagle Crest - Massachusetts
+32 184 6 Rua Schiller - Massachusetts
+133 119 9 Rua Dexter Clarendon - Wisconsin
+73 21 1 Rua Schurz - Indiana
+121 158 6 Rua Goodland Glendale Bluestem - Indiana
+88 148 10 Rua Lerdahl Morningstar - Connecticut
+123 195 4 Rua Tony Manitowish - New Mexico
+84 43 1 Rua Melody Autumn Leaf - Illinois
+153 73 7 Rua Judy Vermont Lien - Ohio
+137 129 3 Rua Glacier Hill Sunnyside Pepper Wood - Virginia
+173 33 3 Rua Crescent Oaks Northland - Texas
+94 47 6 Rua Oneill Nancy - District of Columbia
+61 69 10 Rua Elmside - Connecticut
+109 161 4 Rua Bultman - California
+24 154 9 Rua Burning Wood Meadow Valley Oneill Northland - Virginia
+163 107 5 Rua Lighthouse Bay Carberry - Florida
+184 17 10 Rua Claremont - Pennsylvania
+145 26 1 Rua Mifflin - Delaware
+160 161 3 Rua Red Cloud Holy Cross - Wisconsin
+60 180 2 Rua Autumn Leaf Waubesa - Illinois
+118 19 2 Rua 6th Ridgeview - Indiana
+80 157 1 Rua Annamark - District of Columbia
+162 62 9 Rua Summit Springview - Massachusetts
+122 129 7 Rua Reindahl Kropf Prairie Rose Eastwood Bashford Mcbride Clarendon Express Service Sunnyside - Arizona
+191 164 7 Rua Bultman Starling - Florida
+47 77 1 Rua Lukken Roxbury - Indiana
+19 69 10 Rua Buena Vista Packers - Connecticut
+176 55 6 Rua Evergreen Summerview Maywood Almo Express Hoffman Stoughton Anzinger Cascade Anzinger - Wisconsin
+135 157 2 Rua Namekagon Ilene - Florida
+143 67 9 Rua Express Florence Rieder Fair Oaks Reindahl Carey - New Mexico
+90 78 10 Rua Tomscot Alpine - Florida
+11 83 5 Rua Melody Golden Leaf - California
+161 186 1 Rua Fairview Coleman Scoville - Connecticut
+26 154 8 Rua Bluestem Sage Schmedeman - Ohio
+150 63 2 Rua Sachs Dwight Northwestern - New York
+53 88 7 Rua Havey Jackson Ilene - Ohio
+97 165 8 Rua Meadow Vale Briar Crest - Connecticut
+181 78 2 Rua Brown Forest - District of Columbia
+57 23 7 Rua Hanson Eagle Crest Esker - Nevada
+198 103 7 Rua Muir Loftsgordon Derek Havey - Georgia
+113 106 2 Rua Arrowood Melody - California
+151 166 3 Rua Esch Stoughton - New York
+162 56 7 Rua Dayton Old Shore - Tennessee
+17 52 10 Rua Crowley - Connecticut
+98 143 2 Rua Manley Fremont - Delaware
+69 163 3 Rua Dwight Tomscot - Florida
+45 13 6 Rua Tennyson 1st Fallview - West Virginia
+22 24 2 Rua Superior - New York
+34 96 10 Rua Twin Pines Alpine Loomis Little Fleur - New Mexico
+51 41 3 Rua Service Esker Commercial - Indiana
+187 35 9 Rua Burning Wood Manufacturers Holy Cross - Arizona
+193 47 5 Rua Scott Welch Rigney Bayside Mayer - Virginia
+143 6 8 Rua Ridgeview Sage - California
+111 154 1 Rua Redwing Anzinger Garrison - Arizona
+43 113 2 Rua Mayer Buhler - Arizona
+196 103 6 Rua Elmside Crescent Oaks Farwell - Michigan
+54 107 9 Rua Huxley Almo Prairie Rose - North Carolina
+187 89 2 Rua Autumn Leaf Nobel Weeping Birch - Massachusetts
+166 97 6 Rua Forster Bultman - North Carolina
+41 108 4 Rua Basil - Arizona
+68 56 2 Rua Clemons 1st - Utah
+169 174 6 Rua Cherokee Trailsway Grayhawk - Texas
+35 109 9 Rua Badeau Springview Magdeline - Tennessee
+81 176 10 Rua Florence Toban Northfield Twin Pines Superior Emmet Summerview - California
+32 70 4 Rua Westport Emmet Lillian Quincy West - California
+153 90 4 Rua Utah - Pennsylvania
+200 164 10 Rua Nancy Marcy - New Mexico
+173 123 2 Rua Green Moland Kropf Jenifer Thackeray - Connecticut
+188 169 1 Rua Merrick Emmet Fordem - Michigan
+26 55 2 Rua Tony - Florida
+1 135 7 Rua Melvin Swallow - Connecticut
+163 59 7 Rua Pearson - Virginia
+3 6 4 Rua Brown Elgar - Ohio
+143 169 7 Rua Gale - Illinois
+129 10 2 Rua Truax Oriole - Nevada
+162 180 6 Rua Burning Wood - Pennsylvania
+118 34 9 Rua Grayhawk Westport - Maryland
+147 97 9 Rua Knutson Becker Marcy - Arizona
+72 31 9 Rua Hoffman Magdeline Judy Namekagon - California
+132 182 3 Rua Thackeray - Tennessee
+65 183 8 Rua Drewry Mcbride - Florida
+57 102 8 Rua Grayhawk Cascade - Illinois
+176 198 1 Rua Judy Center - Nevada
+177 68 3 Rua Redwing 8th Hazelcrest Moland - District of Columbia
+167 42 7 Rua Milwaukee - Connecticut
+35 63 10 Rua Harper Bluejay Oneill Amoth 6th - Ohio
+73 123 7 Rua Veith Warner - Tennessee
+73 51 7 Rua New Castle Scoville Farragut 4th Mallard Fisk Eagan - Maryland
+189 15 5 Rua Dwight Mosinee - West Virginia
+37 64 4 Rua Waxwing - Michigan
+148 32 8 Rua Loeprich Heath - Georgia
+160 147 9 Rua Almo - Ohio
+126 38 8 Rua Summerview - Oklahoma
+44 142 7 Rua Express Calypso - Utah
+10 196 4 Rua Atwood Mallard - Connecticut
+7 126 8 Rua Service Butterfield - West Virginia
+64 9 7 Rua Old Gate Cherokee Morning Milwaukee Loftsgordon Fallview - California
+199 168 9 Rua Veith Steensland Mendota Granby - District of Columbia
+137 9 3 Rua Shasta Brickson Park - Indiana
+59 107 6 Rua Autumn Leaf Pepper Wood Lighthouse Bay Shasta - Indiana
+151 55 6 Rua Superior Shoshone Crescent Oaks Tennessee - Delaware
+66 21 7 Rua Victoria Emmet - California
+51 72 8 Rua Hoepker Meadow Ridge East - Georgia
+130 18 7 Rua Fordem Lien Division Truax Pierstorff Blue Bill Park - Nevada
+145 178 9 Rua Linden - Illinois
+30 185 2 Rua Express Helena Boyd - North Carolina
+52 43 5 Rua Drewry Welch - Florida
+4 119 1 Rua Prentice - Ohio
+134 44 3 Rua Crescent Oaks Emmet - Pennsylvania
+186 92 1 Rua South - Ohio
+53 72 6 Rua Service - Texas
+84 189 3 Rua Elgar Forest Run Shopko Trailsway - West Virginia
+176 59 5 Rua West Blackbird - Nevada
+111 153 4 Rua Drewry Fallview Onsgard - Delaware
+190 41 7 Rua Scott Bluestem Eliot Scoville Clemons - Illinois
+156 134 8 Rua Everett Butterfield Westport - Wisconsin
+28 48 6 Rua Waubesa Gulseth - Michigan
+133 183 6 Rua Namekagon - Delaware
+113 72 10 Rua Sachs Karstens Clemons Hazelcrest - West Virginia
+73 152 4 Rua Victoria Columbus - Utah
+111 135 8 Rua Steensland Shasta Farmco - New York
+165 128 6 Rua Coleman Surrey Roth - New York
+51 61 3 Rua Thackeray Sage - New York
+130 110 1 Rua Corry Center - New York
+124 164 8 Rua Old Gate East Hansons Farmco Victoria - Maryland
+66 117 5 Rua Fisk Loomis Sherman - Pennsylvania
+7 54 1 Rua Westridge Clove West Esker - Arizona
+107 27 5 Rua Beilfuss - Georgia
+74 83 3 Rua Waubesa Bunker Hill - North Carolina
+185 21 2 Rua Pleasure Northland Reindahl - Georgia
+165 154 8 Rua Arkansas - West Virginia
+62 149 8 Rua Schlimgen Cordelia Oak Banding Transport Muir Nancy Mallory Union Prairie Rose - Texas
+160 89 6 Rua Cardinal Green Ridge Loomis - Connecticut
+89 99 10 Rua Harper Sunnyside - North Carolina
+92 33 6 Rua Green Dahle - Massachusetts
+119 88 10 Rua Burning Wood Oak Valley Hovde Butternut - Indiana
+125 127 3 Rua 2nd Eagle Crest Weeping Birch Sunbrook Morning - West Virginia
+49 147 5 Rua Schurz 6th - Nevada
+3 130 9 Rua Pankratz Del Mar - Pennsylvania
+127 118 6 Rua Birchwood Mifflin Vahlen Comanche - Oklahoma
+10 3 1 Rua Trailsway Pepper Wood Vahlen - New York
+178 52 5 Rua Northland Dwight - Oklahoma
+152 139 8 Rua Green Ridge - Wisconsin
+53 80 1 Rua Green Autumn Leaf - District of Columbia
+96 172 3 Rua School Sycamore Morrow Buell Beilfuss Garrison - Maryland
+156 131 2 Rua Fallview Butternut Dayton - Texas
+23 95 6 Rua Northport - Florida
+75 42 4 Rua Mitchell Bay Namekagon - Tennessee
+1 80 10 Rua Crownhardt - District of Columbia
+183 70 7 Rua Anderson Drewry Scoville - District of Columbia
+69 39 2 Rua Fordem Independence Green Ridge - North Carolina
+164 53 6 Rua Pierstorff Union - Oklahoma
+179 19 9 Rua Drewry Pierstorff Surrey - District of Columbia
+176 29 9 Rua Sauthoff Anderson Oxford - Nevada
+168 37 10 Rua Mitchell Southridge - New York
+189 183 7 Rua Tennessee - Ohio
+146 39 9 Rua John Wall Esker Towne - Nevada
+5 167 4 Rua Logan - Delaware
+197 101 3 Rua Pearson Mallory - Tennessee
+3 53 9 Rua Hansons Redwing - District of Columbia
+196 150 2 Rua Lakeland Kedzie - California
+133 109 9 Rua Dakota Trailsway Crescent Oaks Mandrake - Indiana
+144 85 10 Rua Waywood 1st Coolidge Little Fleur Muir Trailsway Granby - Florida
+114 183 7 Rua Di Loreto Crest Line - Georgia
+76 105 10 Rua Melvin Esker Scott - California
+22 54 3 Rua Trailsway Sunnyside - Delaware
+18 67 6 Rua Declaration Judy - Massachusetts
+139 66 1 Rua Doe Crossing - New York
+119 29 8 Rua Victoria Harbort Graedel Mallard - Oklahoma
+149 180 1 Rua Fisk Havey - District of Columbia
+171 20 7 Rua Hoffman Tennyson Norway Maple - Tennessee
+151 195 10 Rua Dayton Brickson Park - Ohio
+169 196 7 Rua Bowman Boyd - Maryland
+155 78 10 Rua Bartillon Mitchell - California
+197 169 5 Rua Melrose Trailsway - North Carolina
+72 62 9 Rua Fallview Saint Paul Buhler - Texas
+132 185 3 Rua Ronald Regan Pankratz - Pennsylvania
+91 153 6 Rua Messerschmidt Packers Graceland Dottie Maywood - West Virginia
+178 74 4 Rua Stoughton Old Gate Prairie Rose - Connecticut
+117 4 10 Rua Walton Kedzie Kim - Nevada
+76 13 4 Rua Michigan Mayfield - Tennessee
+19 100 1 Rua Hooker Kim - Maryland
+164 21 9 Rua New Castle Ludington Quincy - Texas
+33 120 6 Rua Cherokee Daystar - Indiana
+196 174 1 Rua Northwestern Hanson East - Georgia
+74 179 9 Rua Farmco Anzinger Onsgard - New Mexico
+26 128 8 Rua Vermont Sunnyside - Georgia
+141 124 3 Rua Heath - Illinois
+173 185 2 Rua Lillian Toban Di Loreto - District of Columbia
+168 111 8 Rua Emmet Buena Vista Farwell Mifflin Summerview Claremont Katie Utah - California
+119 31 8 Rua Dwight Badeau - Massachusetts
+194 44 5 Rua Colorado 6th Kenwood - Illinois
+155 115 10 Rua Jenifer Prairie Rose - California
+92 46 1 Rua Bunker Hill Sutherland Erie Cherokee Summerview Grover - Pennsylvania
+90 169 7 Rua Knutson Monterey Raven - Nevada
+48 139 1 Rua Holmberg Weeping Birch Onsgard - Tennessee
+18 182 6 Rua Ridgeway Lighthouse Bay - Indiana
+103 169 6 Rua Steensland Buhler Pepper Wood - Michigan
+50 8 2 Rua Farmco Gale Magdeline Havey Trailsway Bultman - Indiana
+169 148 9 Rua Mendota Farmco 2nd - North Carolina
+173 179 10 Rua Redwing Eggendart Morning Dawn - Michigan
+18 34 6 Rua Lerdahl Morning - Arizona
+133 61 4 Rua Lakewood Gardens - California
+19 189 8 Rua Rockefeller Grayhawk - Indiana
+41 59 10 Rua 2nd Dunning - Georgia
+80 63 5 Rua Fallview Dakota Shasta Dorton - Massachusetts
+174 128 8 Rua Nancy Forest Dale - Tennessee
+175 30 7 Rua Kropf Old Gate - Nevada
+195 96 5 Rua Dayton Morningstar Buhler - Connecticut
+196 90 9 Rua Namekagon Bultman - Tennessee
+188 97 3 Rua Donald - Ohio
+92 50 4 Rua Cordelia Lien Anderson - Oklahoma
+193 183 2 Rua David Clarendon Ronald Regan Larry Veith - Arizona
+78 116 8 Rua Packers Fremont Tony Maryland - North Carolina
+11 102 2 Rua Anniversary Everett - Texas
+90 180 10 Rua Rieder Lakeland Mallory Onsgard David Dwight Lawn Morning - Georgia
+169 159 8 Rua Cardinal Center - Oklahoma
+37 114 1 Rua Victoria Forest Dale Dawn - Illinois
+175 22 4 Rua Hallows Farwell - Virginia
+197 198 10 Rua Grasskamp Stang - Massachusetts
+176 56 5 Rua Prentice Northwestern Rowland - Texas
+122 164 2 Rua Nova - West Virginia
+6 130 4 Rua Lake View Green Ridge - Utah
+144 74 9 Rua Cordelia Sunnyside - District of Columbia
+145 159 2 Rua Melvin Gateway - Florida
+158 5 9 Rua Monterey Clarendon - Illinois
+126 14 1 Rua Oak Valley - New York
+74 187 9 Rua Holmberg Eagan - New Mexico
+110 155 10 Rua Schlimgen Twin Pines - New York
+32 21 1 Rua Graceland Bonner - District of Columbia
+2 118 10 Rua Eagan Grover Kennedy - Delaware
+194 17 1 Rua Darwin Farwell - Connecticut
+44 78 8 Rua Garrison Vahlen - New Mexico
+70 152 9 Rua Reindahl Scofield Butternut Nancy Autumn Leaf Badeau Fairview - District of Columbia
+61 117 8 Rua 4th - Virginia
+168 148 4 Rua Raven Melody Waubesa - Connecticut
+114 155 7 Rua Eagan Fieldstone Messerschmidt - Pennsylvania
+96 73 7 Rua Kim Ryan - Illinois
+143 122 5 Rua Namekagon Petterle Ilene Washington Norway Maple - Utah
+98 151 9 Rua Amoth Toban Forest - Delaware
+161 111 7 Rua Darwin Evergreen Bluestem - Nevada
+90 74 1 Rua Maryland Dennis Pepper Wood - Michigan
+101 153 9 Rua Sommers - Arizona
+78 92 4 Rua Corry Gateway - Arizona
+142 164 10 Rua Scoville Dorton - Illinois
+77 165 7 Rua Manitowish Rigney - West Virginia
+149 199 1 Rua Dorton Toban Express Butternut - Oklahoma
+137 102 4 Rua Petterle Stoughton Mallard Declaration - New York
+119 189 7 Rua Fremont Lotheville - Delaware
+104 63 4 Rua Brickson Park 5th - Arizona
+29 130 9 Rua Sunbrook Eagan Sauthoff Northland Gerald - District of Columbia
+141 61 9 Rua Dakota - Indiana
+112 175 6 Rua Grover Steensland - Georgia
+125 118 8 Rua Lotheville - Maryland
+38 55 2 Rua Bashford - Michigan
+99 82 10 Rua Rusk Fairview Springview - Ohio
+77 176 3 Rua Autumn Leaf Florence Mallory - New York
+189 36 1 Rua Center Elgar Hermina Lakewood Gardens - Virginia
+38 77 10 Rua Browning - Wisconsin
+16 3 6 Rua Thierer Meadow Ridge Waubesa Waxwing Dunning - Texas
+155 112 4 Rua Jenifer Melody - Virginia
+124 170 3 Rua Porter Hoffman Melody Cottonwood Mallory Twin Pines - Delaware
+160 156 5 Rua 5th - North Carolina
+145 56 2 Rua Center Havey - Texas
+197 176 10 Rua Clemons Fairview Texas - New York
+107 115 5 Rua Scoville Forest Magdeline Monica - District of Columbia
+177 133 1 Rua Pleasure Meadow Valley Shopko - Arizona
+103 185 1 Rua Swallow Waywood - Michigan
+171 12 9 Rua Lake View Acker - Connecticut
+34 141 5 Rua Fallview Alpine Mayer - California
+125 115 2 Rua Springview Spohn - California
+33 42 4 Rua Melvin Tennessee Thackeray - Maryland
+138 56 3 Rua Merrick Clove - New Mexico
+32 61 6 Rua Green Manufacturers - Indiana
+113 25 9 Rua Bartelt Lotheville - Maryland
+199 34 8 Rua High Crossing Larry Del Mar - District of Columbia
+160 162 7 Rua Oak Valley Southridge Pawling - Indiana
+90 185 9 Rua Messerschmidt Tomscot - Florida
+48 62 10 Rua Scoville Macpherson - New York
+29 108 6 Rua Little Fleur Shopko Weeping Birch - Ohio
+151 81 6 Rua Toban Monica - Massachusetts
+//This is here for graph population

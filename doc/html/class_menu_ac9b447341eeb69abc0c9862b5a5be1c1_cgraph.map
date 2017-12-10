@@ -1,0 +1,8 @@
+<map id="Menu::searchMenu" name="Menu::searchMenu">
+<area shape="rect" id="node2" href="$_utils_8cpp.html#a5df53e7fc01a5456f880c78af9b69437" title="readNumber" alt="" coords="249,5,341,32"/>
+<area shape="rect" id="node3" href="$class_supermarket_manager.html#a7fa00d7adf078ca864908c901371a60c" title="SupermarketManager\l::exactSearchStreet" alt="" coords="221,57,368,98"/>
+<area shape="rect" id="node4" href="$class_supermarket_manager.html#a9841cd0c676abc1f128a68bb71bc2683" title="SupermarketManager\l::exactSearchSupermarket" alt="" coords="206,122,383,163"/>
+<area shape="rect" id="node5" href="$class_supermarket_manager.html#a0aa3fa8dab27db5f4960b840a2dd871c" title="SupermarketManager\l::approximateSearchStreet" alt="" coords="206,187,383,229"/>
+<area shape="rect" id="node6" href="$class_supermarket_manager.html#af797d69ada273a0582a619a0fc8f0638" title="SupermarketManager\l::approximateSearchSupermarket" alt="" coords="187,253,403,294"/>
+<area shape="rect" id="node7" href="$class_supermarket_manager.html#addbb66cfbe7d097687595c38e16b9c62" title="SupermarketManager\l::exactSearchDistrict" alt="" coords="221,318,368,359"/>
+</map>

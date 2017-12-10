@@ -1,0 +1,114 @@
+\hypertarget{class_node_object}{}\section{Node\+Object Class Reference}
+\label{class_node_object}\index{Node\+Object@{Node\+Object}}
+
+
+{\ttfamily \#include $<$Node\+Object.\+h$>$}
+
+
+
+Inheritance diagram for Node\+Object\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{class_node_object__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_node_object_a7ea385aba27682c7be7c3028f78476af}{Node\+Object} ()
+\item 
+int \hyperlink{class_node_object_a42a10492f5acabd11e544b19cfc365ab}{get\+ID} ()
+\item 
+string \hyperlink{class_node_object_a472240f1f5cd59583cacddadda08036b}{get\+Distrito} ()
+\item 
+bool \hyperlink{class_node_object_a2808f33e6c6897ab18372fe5636ce05f}{operator==} (const \hyperlink{class_node_object}{Node\+Object} \&rhs)
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{class_node_object_ac87a713167757cef78d75242b18c25ed}{id\+\_\+counter} = 0
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_node_object_ace7dd5d8d02ead5f64b8ba59109ba9c6}{id}
+\item 
+string \hyperlink{class_node_object_acff2ecbe7ba33bd7b9ce1eef79658138}{distrito}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_node_object_a7ea385aba27682c7be7c3028f78476af}\label{class_node_object_a7ea385aba27682c7be7c3028f78476af}} 
+\index{Node\+Object@{Node\+Object}!Node\+Object@{Node\+Object}}
+\index{Node\+Object@{Node\+Object}!Node\+Object@{Node\+Object}}
+\subsubsection{\texorpdfstring{Node\+Object()}{NodeObject()}}
+{\footnotesize\ttfamily Node\+Object\+::\+Node\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Construtor por omissao de um nó. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_node_object_a472240f1f5cd59583cacddadda08036b}\label{class_node_object_a472240f1f5cd59583cacddadda08036b}} 
+\index{Node\+Object@{Node\+Object}!get\+Distrito@{get\+Distrito}}
+\index{get\+Distrito@{get\+Distrito}!Node\+Object@{Node\+Object}}
+\subsubsection{\texorpdfstring{get\+Distrito()}{getDistrito()}}
+{\footnotesize\ttfamily string Node\+Object\+::get\+Distrito (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Retorna o distrito do no
+
+\begin{DoxyReturn}{Returns}
+distrito do no 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_node_object_a42a10492f5acabd11e544b19cfc365ab}\label{class_node_object_a42a10492f5acabd11e544b19cfc365ab}} 
+\index{Node\+Object@{Node\+Object}!get\+ID@{get\+ID}}
+\index{get\+ID@{get\+ID}!Node\+Object@{Node\+Object}}
+\subsubsection{\texorpdfstring{get\+I\+D()}{getID()}}
+{\footnotesize\ttfamily int Node\+Object\+::get\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Retorna o ID do nó
+
+\begin{DoxyReturn}{Returns}
+ID do nó 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_node_object_a42a10492f5acabd11e544b19cfc365ab_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_node_object_a2808f33e6c6897ab18372fe5636ce05f}\label{class_node_object_a2808f33e6c6897ab18372fe5636ce05f}} 
+\index{Node\+Object@{Node\+Object}!operator==@{operator==}}
+\index{operator==@{operator==}!Node\+Object@{Node\+Object}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Node\+Object\+::operator== (\begin{DoxyParamCaption}\item[{const \hyperlink{class_node_object}{Node\+Object} \&}]{rhs }\end{DoxyParamCaption})}
+
+Operador de igualde de nós. Um nó é igual a outro se tiverem o mesmo ID. 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_node_object_acff2ecbe7ba33bd7b9ce1eef79658138}\label{class_node_object_acff2ecbe7ba33bd7b9ce1eef79658138}} 
+\index{Node\+Object@{Node\+Object}!distrito@{distrito}}
+\index{distrito@{distrito}!Node\+Object@{Node\+Object}}
+\subsubsection{\texorpdfstring{distrito}{distrito}}
+{\footnotesize\ttfamily string Node\+Object\+::distrito\hspace{0.3cm}{\ttfamily [private]}}
+
+Distrito onde se localiza o no \mbox{\Hypertarget{class_node_object_ace7dd5d8d02ead5f64b8ba59109ba9c6}\label{class_node_object_ace7dd5d8d02ead5f64b8ba59109ba9c6}} 
+\index{Node\+Object@{Node\+Object}!id@{id}}
+\index{id@{id}!Node\+Object@{Node\+Object}}
+\subsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily int Node\+Object\+::id\hspace{0.3cm}{\ttfamily [private]}}
+
+Identificador único de um nó. \mbox{\Hypertarget{class_node_object_ac87a713167757cef78d75242b18c25ed}\label{class_node_object_ac87a713167757cef78d75242b18c25ed}} 
+\index{Node\+Object@{Node\+Object}!id\+\_\+counter@{id\+\_\+counter}}
+\index{id\+\_\+counter@{id\+\_\+counter}!Node\+Object@{Node\+Object}}
+\subsubsection{\texorpdfstring{id\+\_\+counter}{id\_counter}}
+{\footnotesize\ttfamily int Node\+Object\+::id\+\_\+counter = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Contador sequencial dos I\+Ds dos nós (clientes e supermercados). 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_node_object_8h}{Node\+Object.\+h}\item 
+\hyperlink{_node_object_8cpp}{Node\+Object.\+cpp}\end{DoxyCompactItemize}

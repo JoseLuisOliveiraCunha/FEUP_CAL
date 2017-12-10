@@ -1,0 +1,26 @@
+<map id="Menu::Menu" name="Menu::Menu">
+<area shape="rect" id="node2" href="$class_menu.html#aef9edee86d2ea460606361c92e061583" title="Menu::mainMenu" alt="" coords="148,268,271,295"/>
+<area shape="rect" id="node3" href="$_utils_8cpp.html#a5df53e7fc01a5456f880c78af9b69437" title="readNumber" alt="" coords="594,123,686,149"/>
+<area shape="rect" id="node4" href="$class_supermarket_manager.html#abab275f63e6169a76efd92c90aaac0b4" title="SupermarketManager\l::makeGraph" alt="" coords="328,61,475,102"/>
+<area shape="rect" id="node6" href="$class_supermarket_manager.html#a0072988df7db4459fe0a409894af51a4" title="SupermarketManager\l::loadGraph" alt="" coords="328,665,475,706"/>
+<area shape="rect" id="node8" href="$class_supermarket_manager.html#a19901c8d338b7579398373aeda62ecf2" title="SupermarketManager\l::makeRequest" alt="" coords="328,261,475,302"/>
+<area shape="rect" id="node17" href="$class_supermarket_manager.html#a6dbf83eef3433341c7a971860e3b8915" title="SupermarketManager\l::makeRandomRequests" alt="" coords="319,329,484,370"/>
+<area shape="rect" id="node18" href="$class_menu.html#a8f6414360aee0273d3295ed3467bfaad" title="Menu::deliverMenu" alt="" coords="336,127,467,153"/>
+<area shape="rect" id="node20" href="$class_menu.html#ac9b447341eeb69abc0c9862b5a5be1c1" title="Menu::searchMenu" alt="" coords="335,516,468,543"/>
+<area shape="rect" id="node5" href="$class_aux_edge.html#ac05b44fbcf9e494b0d92df6359ac9932" title="AuxEdge::exists" alt="" coords="581,5,699,32"/>
+<area shape="rect" id="node7" href="$class_client.html#acf31317770c47dc7087dceffe5663b73" title="Client::resetIdCounter" alt="" coords="567,771,713,797"/>
+<area shape="rect" id="node9" href="$class_pedido.html#a4c93021f91deafdf3e0e05fd26e2fa5d" title="Pedido::setDistance" alt="" coords="571,291,709,317"/>
+<area shape="rect" id="node10" href="$class_vertex.html#a74863c211c94a7a5d90e565318d1434d" title="Vertex::getDist" alt="" coords="585,341,695,368"/>
+<area shape="rect" id="node11" href="$class_supermercado.html#a314239f694ade17210e7d50689f49fc5" title="Supermercado::addRequest" alt="" coords="549,392,731,419"/>
+<area shape="rect" id="node13" href="$class_node_object.html#a42a10492f5acabd11e544b19cfc365ab" title="NodeObject::getID" alt="" coords="988,221,1116,248"/>
+<area shape="rect" id="node16" href="$class_supermercado.html#af5f0635dbc5b61a185c74f37f4ee1f92" title="Supermercado::getRequest\lNumber" alt="" coords="550,225,730,266"/>
+<area shape="rect" id="node12" href="$class_pedido.html#a06797f0a6137df4f27a6602af083cdde" title="Pedido::getClientID" alt="" coords="801,269,935,296"/>
+<area shape="rect" id="node14" href="$class_pedido.html#a728b4d0fb30b07498a18b28d92079abe" title="Pedido::addTamanho" alt="" coords="796,367,940,393"/>
+<area shape="rect" id="node15" href="$class_pedido.html#a4eb7ace45204e2c8c90c9e252833eca2" title="Pedido::getTamanho" alt="" coords="797,417,939,444"/>
+<area shape="rect" id="node19" href="$class_supermarket_manager.html#a034d77cc6da77516f6dbb4d6c3c0513d" title="SupermarketManager\l::deliverAllRequests" alt="" coords="567,57,713,98"/>
+<area shape="rect" id="node21" href="$class_supermarket_manager.html#a7fa00d7adf078ca864908c901371a60c" title="SupermarketManager\l::exactSearchStreet" alt="" coords="567,574,713,615"/>
+<area shape="rect" id="node22" href="$class_supermarket_manager.html#a9841cd0c676abc1f128a68bb71bc2683" title="SupermarketManager\l::exactSearchSupermarket" alt="" coords="551,639,729,681"/>
+<area shape="rect" id="node23" href="$class_supermarket_manager.html#a0aa3fa8dab27db5f4960b840a2dd871c" title="SupermarketManager\l::approximateSearchStreet" alt="" coords="551,705,729,746"/>
+<area shape="rect" id="node24" href="$class_supermarket_manager.html#af797d69ada273a0582a619a0fc8f0638" title="SupermarketManager\l::approximateSearchSupermarket" alt="" coords="532,443,748,485"/>
+<area shape="rect" id="node25" href="$class_supermarket_manager.html#addbb66cfbe7d097687595c38e16b9c62" title="SupermarketManager\l::exactSearchDistrict" alt="" coords="567,509,713,550"/>
+</map>

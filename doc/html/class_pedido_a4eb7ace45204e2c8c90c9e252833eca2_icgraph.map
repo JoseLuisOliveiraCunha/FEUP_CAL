@@ -1,0 +1,12 @@
+<map id="Pedido::getTamanho" name="Pedido::getTamanho">
+<area shape="rect" id="node2" href="$class_camiao.html#a1425f4d0a4e86f9e41cd1c5320831cec" title="Camiao::addPedido" alt="" coords="223,14,357,41"/>
+<area shape="rect" id="node3" href="$class_supermercado.html#a314239f694ade17210e7d50689f49fc5" title="Supermercado::addRequest" alt="" coords="199,65,381,91"/>
+<area shape="rect" id="node8" href="$class_supermercado.html#aa7ec7166a13ba5839aec12ff65b599aa" title="Supermercado::fillTrucksSize" alt="" coords="195,115,385,142"/>
+<area shape="rect" id="node10" href="$class_supermercado.html#afaaae4505e9900f6f44800118280aafb" title="Supermercado::fillTrucks\lDistance" alt="" coords="207,167,373,208"/>
+<area shape="rect" id="node11" href="$class_comparison_request_size.html#ac0c648f46f908edacdfc0b95ce4da888" title="ComparisonRequestSize\l::operator()" alt="" coords="207,232,373,273"/>
+<area shape="rect" id="node4" href="$class_supermarket_manager.html#a19901c8d338b7579398373aeda62ecf2" title="SupermarketManager\l::makeRequest" alt="" coords="463,5,609,47"/>
+<area shape="rect" id="node7" href="$class_supermarket_manager.html#a6dbf83eef3433341c7a971860e3b8915" title="SupermarketManager\l::makeRandomRequests" alt="" coords="453,71,619,112"/>
+<area shape="rect" id="node5" href="$class_menu.html#aef9edee86d2ea460606361c92e061583" title="Menu::mainMenu" alt="" coords="687,46,809,73"/>
+<area shape="rect" id="node6" href="$class_menu.html#a506d3403e4cc1ad520bdae62e14ae92e" title="Menu::Menu" alt="" coords="857,46,952,73"/>
+<area shape="rect" id="node9" href="$class_supermercado.html#ad24337eae5c068802738319ec4331772" title="Supermercado::deliverRequests" alt="" coords="433,149,639,175"/>
+</map>
